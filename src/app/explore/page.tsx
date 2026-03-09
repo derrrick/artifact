@@ -480,7 +480,7 @@ function ExploreContent() {
       </div>
 
       {/* Iframe container */}
-      <div className="flex-1 min-h-0 mx-0 md:mx-[60px] mb-[56px] md:mb-0 relative overflow-hidden border-0 md:border md:border-[#2a2a2a]">
+      <div className="flex-1 min-h-0 mx-0 md:mx-[60px] mb-[44px] md:mb-0 relative overflow-hidden border-0 md:border md:border-[#2a2a2a]">
         <div ref={iframeWrapRef} className="absolute inset-0" style={{ opacity: 0 }}>
           <iframe
             key={iframeSrc}
@@ -585,7 +585,7 @@ function ExploreContent() {
 
       {/* Bottom nav */}
       <div
-        className="fixed left-0 right-0 z-40 md:relative md:bottom-auto md:z-auto flex flex-col items-center justify-center px-4 md:px-[60px] gap-2 md:gap-3 h-[56px] md:h-[140px] shrink-0"
+        className="fixed left-0 right-0 z-40 md:relative md:bottom-auto md:z-auto flex flex-col items-center justify-center px-4 md:px-[60px] gap-2 md:gap-3 h-[44px] md:h-[140px] shrink-0"
         style={{ background: "var(--bg)", bottom: "env(safe-area-inset-bottom, 0px)" }}
       >
         <div className="hidden md:block w-full h-px" style={{ background: "var(--border-subtle)" }} />
@@ -597,12 +597,12 @@ function ExploreContent() {
             className="flex items-center gap-2 group cursor-pointer min-h-[44px]"
           >
             <span className="text-xl text-[#E9F055]">←</span>
-            <span className="text-[10px] tracking-[0.2em] uppercase text-[#E9F055]">Previous</span>
+            <span className="text-[10px] tracking-[0.2em] uppercase text-[#E9F055]">Prev</span>
           </button>
 
           <button
             onClick={() => setShowFilterModal(true)}
-            className="flex items-center gap-1.5 px-5 py-2.5 text-[10px] font-semibold tracking-[0.15em] uppercase cursor-pointer rounded-full transition-all duration-150 hover:brightness-110 min-h-[44px]"
+            className="flex items-center gap-1.5 px-4 py-2 text-[10px] font-semibold tracking-[0.15em] uppercase cursor-pointer rounded-full transition-all duration-150 hover:brightness-110 min-h-[40px]"
             style={{ background: "#E9F055", color: "#0A0A0A" }}
           >
             Filter
@@ -613,7 +613,7 @@ function ExploreContent() {
             )}
           </button>
 
-          <button onClick={() => navigateTo(nextSite)} className="flex items-center gap-2 group cursor-pointer min-h-[44px]">
+          <button onClick={() => navigateTo(nextSite)} className="flex items-center gap-2 group cursor-pointer min-h-[40px]">
             <span className="text-[10px] tracking-[0.2em] uppercase text-[#E9F055]">Next</span>
             <span className="text-xl text-[#E9F055]">→</span>
           </button>
