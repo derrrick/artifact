@@ -5,7 +5,7 @@
     "description": "A curated collection of 500+ websites embodying editorial restraint, typographic excellence, and atmospheric design",
     "created": "2025-01-09",
     "version": "1.0",
-    "total_sources": 433,
+    "total_sources": 427,
     "total_buckets": 10
   },
   "buckets": [
@@ -460,16 +460,6 @@
             "guide"
           ],
           "iframeBlocked": true
-        },
-        {
-          "name": "Lineto",
-          "url": "https://lineto.com",
-          "description": "Swiss type foundry with system fonts",
-          "tags": [
-            "type foundry",
-            "swiss",
-            "system"
-          ]
         },
         {
           "name": "Radim Peško",
@@ -2239,16 +2229,6 @@
           ]
         },
         {
-          "name": "WESC",
-          "url": "https://wesc.com",
-          "description": "Swedish streetwear",
-          "tags": [
-            "fashion",
-            "streetwear",
-            "swedish"
-          ]
-        },
-        {
           "name": "Nudie Jeans",
           "url": "https://nudiejeans.com",
           "description": "Swedish sustainable denim",
@@ -2291,26 +2271,6 @@
         {
           "name": "Lindex",
           "url": "https://lindex.com",
-          "description": "Swedish fashion retailer",
-          "tags": [
-            "fashion",
-            "retailer",
-            "swedish"
-          ]
-        },
-        {
-          "name": "KappAhl",
-          "url": "https://kappahl.com",
-          "description": "Swedish fashion chain",
-          "tags": [
-            "fashion",
-            "chain",
-            "swedish"
-          ]
-        },
-        {
-          "name": "MQ",
-          "url": "https://mq.se",
           "description": "Swedish fashion retailer",
           "tags": [
             "fashion",
@@ -2377,18 +2337,6 @@
             "nyc",
             "architecture"
           ]
-        },
-        {
-          "name": "Metropolitan Museum",
-          "url": "https://metmuseum.org",
-          "description": "Encyclopedia of art with editorial presentation",
-          "tags": [
-            "museum",
-            "encyclopedia",
-            "nyc",
-            "comprehensive"
-          ],
-          "iframeBlocked": true
         },
         {
           "name": "New Museum",
@@ -4306,16 +4254,6 @@
             "music",
             "label",
             "london"
-          ]
-        },
-        {
-          "name": "Sub Pop",
-          "url": "https://subpop.com",
-          "description": "Seattle grunge label",
-          "tags": [
-            "music",
-            "label",
-            "seattle"
           ]
         },
         {

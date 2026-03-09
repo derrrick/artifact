@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import Nav from "@/components/Nav";
 import { StarIcon, GoldLine } from "@/components/Ornaments";
 import { buckets, bucketLabels, bucketColors, getFilteredSites } from "@/data/sites";
-import { SmokeRing, Warp } from "@paper-design/shaders-react";
+import { SmokeRing, SimplexNoise } from "@paper-design/shaders-react";
 import gsap from "gsap";
 
 /* ─── Palette constants ─── */
@@ -114,17 +114,12 @@ export default function Home() {
       {/* ═══ HERO — Midnight Violet full-bleed ═══ */}
       <section className="relative min-h-[50vh] md:min-h-screen flex flex-col overflow-hidden" style={{ background: "#0A0A0A" }}>
         <div className="absolute inset-0 pointer-events-none z-0">
-          <Warp
-            speed={2.1}
-            scale={5}
-            softness={0.06}
-            proportion={0.45}
-            swirl={1.67}
-            swirlIterations={2}
-            shape="checks"
-            distortion={0.86}
-            shapeScale={0.2}
-            colors={["#121212", "#121212", "#351F28", "#FA4D31"]}
+          <SimplexNoise
+            speed={0.3}
+            scale={6}
+            stepsPerColor={10}
+            softness={0}
+            colors={["#F54C31", "#000000", "#351F28", "#000000", "#F54C31"]}
             style={{ width: "100%", height: "100%", pointerEvents: "none" }}
           />
         </div>
@@ -226,11 +221,11 @@ export default function Home() {
                   });
                   router.push(`/explore?${params.toString()}`);
                 }}
-                className="group flex items-center gap-3 md:gap-8 py-4 md:py-7 cursor-pointer transition-all border-b hover:opacity-100"
+                className="group flex items-center gap-3 md:gap-8 py-4 md:py-7 cursor-pointer transition-all duration-300 border-b hover:pl-3 md:hover:pl-6 hover:bg-[rgba(233,240,85,0.04)]"
                 style={{ borderColor: "rgba(255,255,255,0.06)" }}
               >
                 <span
-                  className="font-[family-name:var(--font-unbounded)] text-[22px] md:text-[40px] font-bold w-[44px] md:w-[80px] shrink-0 text-right transition-opacity group-hover:opacity-100"
+                  className="font-[family-name:var(--font-unbounded)] text-[22px] md:text-[40px] font-bold w-[44px] md:w-[80px] shrink-0 text-right transition-all duration-300 group-hover:opacity-100 group-hover:text-[#E9F055]"
                   style={{ color: CANARY, opacity: 0.6 }}
                 >
                   {String(i + 1).padStart(2, "0")}
@@ -242,11 +237,11 @@ export default function Home() {
                   {bucketLabels[b.id] || b.name}
                 </span>
                 <div className="flex-1" />
-                <span className="hidden md:inline font-[family-name:var(--font-mono)] text-[11px] tracking-[0.15em] uppercase shrink-0" style={{ color: GREY }}>
+                <span className="hidden md:inline font-[family-name:var(--font-mono)] text-[11px] tracking-[0.15em] uppercase shrink-0 transition-colors duration-300 group-hover:text-[#E9F055]" style={{ color: GREY }}>
                   {count} sites
                 </span>
                 <div
-                  className="hidden md:block w-3 h-3 rounded-full shrink-0 transition-all group-hover:scale-125"
+                  className="hidden md:block w-3 h-3 rounded-full shrink-0 transition-all duration-300 group-hover:scale-150 group-hover:bg-[#E9F055]"
                   style={{
                     background: "transparent",
                     border: "1px solid rgba(255,255,255,0.15)",
