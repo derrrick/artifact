@@ -34,10 +34,20 @@ export default function Nav() {
         </button>
         <Link
           href="/explore"
-          className="flex items-center gap-2 px-4 py-1.5 md:px-5 md:py-2 font-[family-name:var(--font-mono)] text-[10px] md:text-[11px] font-semibold tracking-[0.2em] uppercase transition-all rounded-full"
+          className="flex items-center gap-2 px-4 py-1.5 md:px-5 md:py-2 font-[family-name:var(--font-mono)] text-[10px] md:text-[11px] font-semibold tracking-[0.2em] uppercase transition-all duration-300 rounded-full"
           style={{
             border: "1px solid var(--terracotta)",
             color: "var(--terracotta)",
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.backgroundColor = "var(--canary)";
+            e.currentTarget.style.borderColor = "transparent";
+            e.currentTarget.style.color = "#000000";
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.backgroundColor = "transparent";
+            e.currentTarget.style.borderColor = "var(--terracotta)";
+            e.currentTarget.style.color = "var(--terracotta)";
           }}
         >
           Explore
