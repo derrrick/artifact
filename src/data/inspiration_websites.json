@@ -1,0 +1,4931 @@
+{
+  "metadata": {
+    "title": "Luxury Editorial Website Collection",
+    "subtitle": "Apartamento × SSENSE × A24 Energy",
+    "description": "A curated collection of 500+ websites embodying editorial restraint, typographic excellence, and atmospheric design",
+    "created": "2025-01-09",
+    "version": "1.0",
+    "total_sources": 433,
+    "total_buckets": 10
+  },
+  "buckets": [
+    {
+      "id": "typography_first",
+      "name": "Typography-First / Editorial Minimal",
+      "description": "Websites where custom typefaces are the primary visual element, with generous whitespace and grid-based layouts",
+      "filters": [
+        "Custom or rare typefaces as primary visual element",
+        "Generous whitespace (40%+ of viewport)",
+        "Grid-based layouts with asymmetric balance",
+        "No more than 2-3 typefaces total",
+        "Text treated as image",
+        "Scroll-triggered typographic animations",
+        "Monochrome or muted color palettes",
+        "Strict editorial hierarchy (H1 > H2 > body > caption)"
+      ],
+      "sources": [
+        {
+          "name": "Font Review Journal",
+          "url": "https://fontreviewjournal.com",
+          "description": "Bethany Heck's type criticism",
+          "tags": [
+            "type criticism",
+            "editorial",
+            "reviews"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Typewolf",
+          "url": "https://typewolf.com",
+          "description": "Jeremiah Shoaf's typography curation",
+          "tags": [
+            "type curation",
+            "inspiration",
+            "resources"
+          ]
+        },
+        {
+          "name": "Fonts In Use",
+          "url": "https://fontsinuse.com",
+          "description": "Typographic archive and database",
+          "tags": [
+            "type archive",
+            "database",
+            "reference"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Typographica",
+          "url": "https://typographica.org",
+          "description": "Stephen Coles' type reviews",
+          "tags": [
+            "type reviews",
+            "criticism",
+            "editorial"
+          ]
+        },
+        {
+          "name": "It's Nice That",
+          "url": "https://itsnicethat.com",
+          "description": "Creative industry editorial platform",
+          "tags": [
+            "creative industry",
+            "editorial",
+            "inspiration"
+          ]
+        },
+        {
+          "name": "Creative Review",
+          "url": "https://creativereview.co.uk",
+          "description": "British design culture magazine",
+          "tags": [
+            "design magazine",
+            "british",
+            "culture"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "ArchDaily",
+          "url": "https://archdaily.com",
+          "description": "Architecture news and projects database",
+          "tags": [
+            "architecture",
+            "database",
+            "projects"
+          ]
+        },
+        {
+          "name": "Sight Unseen",
+          "url": "https://sightunseen.com",
+          "description": "Design and craft editorial by Jill Singer and Monica Khemsurov",
+          "tags": [
+            "design",
+            "craft",
+            "editorial"
+          ]
+        },
+        {
+          "name": "Colossal",
+          "url": "https://thisiscolossal.com",
+          "description": "Art and design blog",
+          "tags": [
+            "art",
+            "design",
+            "blog"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "The Design Files",
+          "url": "https://thedesignfiles.net",
+          "description": "Australian interiors editorial",
+          "tags": [
+            "interiors",
+            "australian",
+            "editorial"
+          ]
+        },
+        {
+          "name": "Remodelista",
+          "url": "https://remodelista.com",
+          "description": "Quiet design, sparse layout by Julie Carlson",
+          "tags": [
+            "interiors",
+            "minimal",
+            "renovation"
+          ]
+        },
+        {
+          "name": "Apartment Therapy",
+          "url": "https://apartmenttherapy.com",
+          "description": "Accessible home culture by Maxwell Ryan",
+          "tags": [
+            "home",
+            "culture",
+            "accessible"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Wallpaper*",
+          "url": "https://wallpaper.com",
+          "description": "Design and lifestyle authority",
+          "tags": [
+            "design",
+            "lifestyle",
+            "luxury"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Monocle",
+          "url": "https://monocle.com",
+          "description": "Global affairs and design by Tyler Brûlé",
+          "tags": [
+            "global affairs",
+            "design",
+            "editorial"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Kinfolk",
+          "url": "https://kinfolk.com",
+          "description": "Slow living aesthetic magazine",
+          "tags": [
+            "slow living",
+            "lifestyle",
+            "editorial"
+          ]
+        },
+        {
+          "name": "Cereal Magazine",
+          "url": "https://readcereal.com",
+          "description": "Minimal lifestyle editorial",
+          "tags": [
+            "lifestyle",
+            "minimal",
+            "editorial"
+          ]
+        },
+        {
+          "name": "Frankie Magazine",
+          "url": "https://frankie.com.au",
+          "description": "Australian indie culture magazine",
+          "tags": [
+            "australian",
+            "indie",
+            "culture"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Oh Comely",
+          "url": "https://ohcomely.co.uk",
+          "description": "British indie editorial magazine",
+          "tags": [
+            "british",
+            "indie",
+            "editorial"
+          ]
+        },
+        {
+          "name": "The Gentlewoman",
+          "url": "https://thegentlewoman.co.uk",
+          "description": "Grown-up fashion with clean editorial design",
+          "tags": [
+            "fashion",
+            "editorial",
+            "women"
+          ]
+        },
+        {
+          "name": "System Magazine",
+          "url": "https://system-magazine.com",
+          "description": "Long-form fashion journalism",
+          "tags": [
+            "fashion",
+            "journalism",
+            "long-form"
+          ]
+        },
+        {
+          "name": "Self Service",
+          "url": "https://selfservicemagazine.com",
+          "description": "Ezra Petronio's fashion art direction",
+          "tags": [
+            "fashion",
+            "art direction",
+            "editorial"
+          ]
+        },
+        {
+          "name": "Purple Magazine",
+          "url": "https://purple.fr",
+          "description": "Olivier Zahm's Parisian cool",
+          "tags": [
+            "fashion",
+            "parisian",
+            "culture"
+          ]
+        },
+        {
+          "name": "Document Journal",
+          "url": "https://documentjournal.com",
+          "description": "Nick Vogelson's luxury journalism",
+          "tags": [
+            "luxury",
+            "journalism",
+            "fashion"
+          ]
+        },
+        {
+          "name": "Interview Magazine",
+          "url": "https://interviewmagazine.com",
+          "description": "Andy Warhol's legacy publication",
+          "tags": [
+            "fashion",
+            "celebrity",
+            "culture"
+          ]
+        },
+        {
+          "name": "W Magazine",
+          "url": "https://wmagazine.com",
+          "description": "Hollywood fashion by Sara Moonves",
+          "tags": [
+            "fashion",
+            "hollywood",
+            "celebrity"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "V Magazine",
+          "url": "https://vmagazine.com",
+          "description": "Stephen Gan's bold fashion editorial",
+          "tags": [
+            "fashion",
+            "bold",
+            "editorial"
+          ]
+        },
+        {
+          "name": "CR Fashion Book",
+          "url": "https://crfashionbook.com",
+          "description": "Carine Roitfeld's fantasy fashion",
+          "tags": [
+            "fashion",
+            "fantasy",
+            "editorial"
+          ]
+        },
+        {
+          "name": "10 Magazine",
+          "url": "https://10magazine.com",
+          "description": "Sophia Neophitou's luxury fashion",
+          "tags": [
+            "fashion",
+            "luxury",
+            "editorial"
+          ]
+        },
+        {
+          "name": "Wonderland",
+          "url": "https://wonderlandmagazine.com",
+          "description": "Youth culture by Toni-Blaze Ibekwe",
+          "tags": [
+            "youth culture",
+            "fashion",
+            "editorial"
+          ]
+        },
+        {
+          "name": "Rollacoaster",
+          "url": "https://rollacoaster.tv",
+          "description": "UK youth culture by Louise Gannon",
+          "tags": [
+            "youth culture",
+            "uk",
+            "editorial"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Flaunt Magazine",
+          "url": "https://flaunt.com",
+          "description": "LA fashion culture by Luis Barajas",
+          "tags": [
+            "fashion",
+            "la",
+            "culture"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Nylon",
+          "url": "https://nylon.com",
+          "description": "Pop culture fashion by Michelle Lee",
+          "tags": [
+            "fashion",
+            "pop culture",
+            "youth"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Paper Magazine",
+          "url": "https://papermag.com",
+          "description": "Downtown culture by Kim Hastreiter",
+          "tags": [
+            "culture",
+            "downtown",
+            "fashion"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Office Magazine",
+          "url": "https://officemagazine.net",
+          "description": "NYC culture by Simon Rasmussen",
+          "tags": [
+            "culture",
+            "nyc",
+            "editorial"
+          ]
+        },
+        {
+          "name": "King Kong Magazine",
+          "url": "https://kingkongmagazine.com",
+          "description": "Art fashion by Paulina Pikulinski",
+          "tags": [
+            "fashion",
+            "art",
+            "editorial"
+          ]
+        },
+        {
+          "name": "Buffalo Zine",
+          "url": "https://buffalozine.com",
+          "description": "Spanish fashion by Adrián González-Cohen",
+          "tags": [
+            "fashion",
+            "spanish",
+            "editorial"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Fucking Young!",
+          "url": "https://fuckingyoung.es",
+          "description": "Youth fashion culture with bold design",
+          "tags": [
+            "fashion",
+            "youth",
+            "bold"
+          ]
+        },
+        {
+          "name": "n+1",
+          "url": "https://nplusonemag.com",
+          "description": "Brooklyn literary journal with clean design",
+          "tags": [
+            "literary",
+            "brooklyn",
+            "clean"
+          ]
+        },
+        {
+          "name": "McSweeney's",
+          "url": "https://mcsweeneys.net",
+          "description": "Literary humor by Dave Eggers",
+          "tags": [
+            "literary",
+            "humor",
+            "experimental"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "The Atlantic",
+          "url": "https://theatlantic.com",
+          "description": "American ideas journalism",
+          "tags": [
+            "journalism",
+            "ideas",
+            "american"
+          ]
+        },
+        {
+          "name": "The New York Times Magazine",
+          "url": "https://nytimes.com/section/magazine",
+          "description": "Visual journalism by Dean Robinson",
+          "tags": [
+            "journalism",
+            "visual",
+            "editorial"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "How To Spend It",
+          "url": "https://howtospendit.ft.com",
+          "description": "FT's luxury shopping guide",
+          "tags": [
+            "luxury",
+            "shopping",
+            "guide"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Lineto",
+          "url": "https://lineto.com",
+          "description": "Swiss type foundry with system fonts",
+          "tags": [
+            "type foundry",
+            "swiss",
+            "system"
+          ]
+        },
+        {
+          "name": "Radim Peško",
+          "url": "https://radimpesko.com",
+          "description": "Independent type designer",
+          "tags": [
+            "type designer",
+            "independent",
+            "czech"
+          ]
+        },
+        {
+          "name": "David Jonathan Ross",
+          "url": "https://djr.com",
+          "description": "Independent American type designer",
+          "tags": [
+            "type designer",
+            "american",
+            "independent"
+          ]
+        },
+        {
+          "name": "Arrow Type",
+          "url": "https://arrowtype.com",
+          "description": "Variable font specialists",
+          "tags": [
+            "type foundry",
+            "variable",
+            "specialist"
+          ]
+        },
+        {
+          "name": "Darden Studio",
+          "url": "https://dardenstudio.com",
+          "description": "Type design with editorial focus",
+          "tags": [
+            "type foundry",
+            "editorial",
+            "american"
+          ]
+        },
+        {
+          "name": "Colophon Foundry",
+          "url": "https://colophon-foundry.org",
+          "description": "London-based type foundry",
+          "tags": [
+            "type foundry",
+            "british",
+            "london"
+          ]
+        },
+        {
+          "name": "NaN",
+          "url": "https://nan.xyz",
+          "description": "Experimental type foundry",
+          "tags": [
+            "type foundry",
+            "experimental",
+            "digital"
+          ]
+        },
+        {
+          "name": "TypeMates",
+          "url": "https://typemates.com",
+          "description": "German type collective",
+          "tags": [
+            "type collective",
+            "german",
+            "collaborative"
+          ]
+        },
+        {
+          "name": "Rosetta Type Foundry",
+          "url": "https://rosettatype.com",
+          "description": "Multi-script type specialists",
+          "tags": [
+            "type foundry",
+            "multi-script",
+            "global"
+          ]
+        },
+        {
+          "name": "Underware",
+          "url": "https://underware.nl",
+          "description": "Dutch type collective",
+          "tags": [
+            "type collective",
+            "dutch",
+            "experimental"
+          ]
+        },
+        {
+          "name": "Zetafonts",
+          "url": "https://zetafonts.com",
+          "description": "Italian type foundry",
+          "tags": [
+            "type foundry",
+            "italian",
+            "florence"
+          ]
+        },
+        {
+          "name": "I Love Typography",
+          "url": "https://ilovetypography.com",
+          "description": "World's most popular typography blog",
+          "tags": [
+            "typography",
+            "blog",
+            "education"
+          ]
+        },
+        {
+          "name": "TypeWorship",
+          "url": "https://typeworship.com",
+          "description": "Official blog of 8 Faces magazine",
+          "tags": [
+            "typography",
+            "blog",
+            "inspiration"
+          ]
+        },
+        {
+          "name": "Slanted Magazine",
+          "url": "https://slanted.de",
+          "description": "Bold, experimental, international design magazine",
+          "tags": [
+            "magazine",
+            "design",
+            "experimental"
+          ]
+        },
+        {
+          "name": "Hunger Magazine",
+          "url": "https://hungermag.com",
+          "description": "Bold creative expression by Rankin",
+          "tags": [
+            "magazine",
+            "fashion",
+            "bold"
+          ]
+        },
+        {
+          "name": "Riposte Magazine",
+          "url": "https://ripostemagazine.com",
+          "description": "Smart content for stylish women",
+          "tags": [
+            "magazine",
+            "women",
+            "smart"
+          ]
+        },
+        {
+          "name": "Elephant Magazine",
+          "url": "https://elephant.art",
+          "description": "Contemporary art and visual culture",
+          "tags": [
+            "magazine",
+            "art",
+            "contemporary"
+          ]
+        },
+        {
+          "name": "ArtReview",
+          "url": "https://artreview.com",
+          "description": "International contemporary art magazine",
+          "tags": [
+            "magazine",
+            "art",
+            "international"
+          ]
+        },
+        {
+          "name": "Kaleidoscope",
+          "url": "https://kaleidoscope.media",
+          "description": "Contemporary art magazine",
+          "tags": [
+            "magazine",
+            "art",
+            "milan"
+          ]
+        },
+        {
+          "name": "Mousse Magazine",
+          "url": "https://moussemagazine.it",
+          "description": "Contemporary art magazine",
+          "tags": [
+            "magazine",
+            "art",
+            "italian"
+          ]
+        },
+        {
+          "name": "Hyperallergic",
+          "url": "https://hyperallergic.com",
+          "description": "Sensitive to art and its discontents",
+          "tags": [
+            "blog",
+            "art",
+            "criticism"
+          ]
+        },
+        {
+          "name": "e-flux",
+          "url": "https://e-flux.com",
+          "description": "Art information platform",
+          "tags": [
+            "platform",
+            "art",
+            "information"
+          ]
+        },
+        {
+          "name": "Creative Boom",
+          "url": "https://creativeboom.com",
+          "description": "Creative industry magazine",
+          "tags": [
+            "magazine",
+            "creative",
+            "uk"
+          ]
+        },
+        {
+          "name": "The Dieline",
+          "url": "https://thedieline.com",
+          "description": "Packaging design community",
+          "tags": [
+            "packaging",
+            "design",
+            "community"
+          ]
+        },
+        {
+          "name": "Design Milk",
+          "url": "https://design-milk.com",
+          "description": "Modern design blog",
+          "tags": [
+            "blog",
+            "design",
+            "modern"
+          ]
+        },
+        {
+          "name": "Cool Hunting",
+          "url": "https://coolhunting.com",
+          "description": "Design and culture discovery",
+          "tags": [
+            "blog",
+            "design",
+            "culture"
+          ]
+        },
+        {
+          "name": "Labour and Wait",
+          "url": "https://labourandwait.co.uk",
+          "description": "British household goods",
+          "tags": [
+            "shop",
+            "household",
+            "british"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atmospheric_cinematic",
+      "name": "Atmospheric / Cinematic (A24 Energy)",
+      "description": "Immersive websites with film grain, analog textures, and mood over information hierarchy",
+      "filters": [
+        "Full-bleed photography or video backgrounds",
+        "Grain, film noise, or analog texture overlays",
+        "Low-contrast or desaturated color grading",
+        "Ambient audio or subtle sound design",
+        "Non-linear navigation (exploratory, not utilitarian)",
+        "Mood over information hierarchy",
+        "Gothic, folk, or retro-futuristic aesthetic references",
+        "Merchandise/collateral that extends world-building"
+      ],
+      "sources": [
+        {
+          "name": "A24",
+          "url": "https://a24films.com",
+          "description": "The gold standard—atmospheric, immersive film studio",
+          "tags": [
+            "film",
+            "studio",
+            "atmospheric",
+            "immersive"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Mubi",
+          "url": "https://mubi.com",
+          "description": "Curated streaming with film journal aesthetic",
+          "tags": [
+            "streaming",
+            "curated",
+            "film"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Film Comment",
+          "url": "https://filmcomment.com",
+          "description": "Film Society of Lincoln Center publication",
+          "tags": [
+            "film",
+            "criticism",
+            "journalism"
+          ]
+        },
+        {
+          "name": "Cohen Film Collection",
+          "url": "https://cohenmedia.net",
+          "description": "Classic cinema restoration",
+          "tags": [
+            "film",
+            "restoration",
+            "classic"
+          ]
+        },
+        {
+          "name": "Arrow Video",
+          "url": "https://arrowvideo.com",
+          "description": "Cult cinema with bold packaging",
+          "tags": [
+            "film",
+            "cult",
+            "packaging"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Vinegar Syndrome",
+          "url": "https://vinegarsyndrome.com",
+          "description": "Cult film restoration with editorial design",
+          "tags": [
+            "film",
+            "cult",
+            "restoration"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Severin Films",
+          "url": "https://severinfilms.com",
+          "description": "Exploitation cinema with bold design",
+          "tags": [
+            "film",
+            "exploitation",
+            "cult"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Blue Underground",
+          "url": "https://blue-underground.com",
+          "description": "Cult cinema distribution",
+          "tags": [
+            "film",
+            "cult",
+            "distribution"
+          ]
+        },
+        {
+          "name": "BFI",
+          "url": "https://bfi.org.uk",
+          "description": "British Film Institute authority",
+          "tags": [
+            "film",
+            "british",
+            "institute"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "BFI Player",
+          "url": "https://player.bfi.org.uk",
+          "description": "British streaming with editorial design",
+          "tags": [
+            "streaming",
+            "british",
+            "film"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Dogwoof",
+          "url": "https://dogwoof.com",
+          "description": "British documentary distribution",
+          "tags": [
+            "film",
+            "documentary",
+            "british"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Magnolia Pictures",
+          "url": "https://magpictures.com",
+          "description": "American indie distribution",
+          "tags": [
+            "film",
+            "indie",
+            "american"
+          ]
+        },
+        {
+          "name": "IFC Films",
+          "url": "https://ifcfilms.com",
+          "description": "American indie cinema",
+          "tags": [
+            "film",
+            "indie",
+            "american"
+          ]
+        },
+        {
+          "name": "Neon",
+          "url": "https://neonrated.com",
+          "description": "A24 competitor with bold marketing",
+          "tags": [
+            "film",
+            "studio",
+            "bold"
+          ]
+        },
+        {
+          "name": "Searchlight Pictures",
+          "url": "https://searchlightpictures.com",
+          "description": "Disney indie with editorial design",
+          "tags": [
+            "film",
+            "indie",
+            "disney"
+          ]
+        },
+        {
+          "name": "Focus Features",
+          "url": "https://focusfeatures.com",
+          "description": "Universal prestige films",
+          "tags": [
+            "film",
+            "prestige",
+            "universal"
+          ]
+        },
+        {
+          "name": "Annapurna Pictures",
+          "url": "https://annapurna.pictures",
+          "description": "Megan Ellison's indie empire",
+          "tags": [
+            "film",
+            "indie",
+            "studio"
+          ]
+        },
+        {
+          "name": "Plan B Entertainment",
+          "url": "https://planb.eu",
+          "description": "Brad Pitt's production company",
+          "tags": [
+            "film",
+            "production",
+            "studio"
+          ]
+        },
+        {
+          "name": "Blumhouse",
+          "url": "https://blumhouse.com",
+          "description": "Jason Blum's horror empire",
+          "tags": [
+            "film",
+            "horror",
+            "studio"
+          ]
+        },
+        {
+          "name": "A24 Shop",
+          "url": "https://shop.a24films.com",
+          "description": "Merchandise with editorial e-commerce",
+          "tags": [
+            "e-commerce",
+            "merchandise",
+            "film"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Everything Everywhere All at Once",
+          "url": "https://a24films.com/films/everything-everywhere-all-at-once",
+          "description": "A24 multiverse madness film site",
+          "tags": [
+            "film",
+            "sci-fi",
+            "multiverse"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Civil War",
+          "url": "https://civilwar.movie",
+          "description": "A24 American dystopia film site",
+          "tags": [
+            "film",
+            "dystopia",
+            "war"
+          ]
+        },
+        {
+          "name": "Sundance Institute",
+          "url": "https://sundance.org",
+          "description": "Independent film festival and institute",
+          "tags": [
+            "film",
+            "festival",
+            "independent"
+          ]
+        },
+        {
+          "name": "SXSW Film",
+          "url": "https://sxsw.com/film",
+          "description": "Austin's film and culture festival",
+          "tags": [
+            "film",
+            "festival",
+            "austin"
+          ]
+        },
+        {
+          "name": "Telluride Film Festival",
+          "url": "https://telluridefilmfestival.org",
+          "description": "Colorado film festival",
+          "tags": [
+            "film",
+            "festival",
+            "colorado"
+          ]
+        },
+        {
+          "name": "New York Film Festival",
+          "url": "https://filmlinc.org/nyff",
+          "description": "Lincoln Center film festival",
+          "tags": [
+            "film",
+            "festival",
+            "nyc"
+          ]
+        },
+        {
+          "name": "San Sebastián Film Festival",
+          "url": "https://sansebastianfestival.com",
+          "description": "Spanish film festival",
+          "tags": [
+            "film",
+            "festival",
+            "spain"
+          ]
+        },
+        {
+          "name": "Warsaw Film Festival",
+          "url": "https://wff.pl",
+          "description": "Polish film festival",
+          "tags": [
+            "film",
+            "festival",
+            "poland"
+          ]
+        },
+        {
+          "name": "Hong Kong International Film Festival",
+          "url": "https://hkiff.org.hk",
+          "description": "Asian film festival",
+          "tags": [
+            "film",
+            "festival",
+            "hong kong"
+          ]
+        },
+        {
+          "name": "Busan International Film Festival",
+          "url": "https://biff.kr",
+          "description": "Korea's major film festival",
+          "tags": [
+            "film",
+            "festival",
+            "korea"
+          ]
+        },
+        {
+          "name": "The Criterion Channel",
+          "url": "https://criterionchannel.com",
+          "description": "Curated art house streaming",
+          "tags": [
+            "streaming",
+            "art house",
+            "curated"
+          ]
+        },
+        {
+          "name": "Film Movement",
+          "url": "https://filmmovement.com",
+          "description": "Independent film distributor",
+          "tags": [
+            "film",
+            "independent",
+            "distributor"
+          ]
+        },
+        {
+          "name": "Strand Releasing",
+          "url": "https://strandreleasing.com",
+          "description": "Independent film distributor",
+          "tags": [
+            "film",
+            "independent",
+            "distributor"
+          ]
+        },
+        {
+          "name": "Zeitgeist Films",
+          "url": "https://zeitgeistfilms.com",
+          "description": "Documentary and art house distributor",
+          "tags": [
+            "film",
+            "documentary",
+            "distributor"
+          ]
+        },
+        {
+          "name": "Kino Lorber",
+          "url": "https://kinolorber.com",
+          "description": "Art house and classic film distributor",
+          "tags": [
+            "film",
+            "art house",
+            "distributor"
+          ]
+        },
+        {
+          "name": "Oscilloscope Laboratories",
+          "url": "https://oscopelabs.com",
+          "description": "Independent film distribution",
+          "tags": [
+            "film",
+            "independent",
+            "distribution"
+          ]
+        },
+        {
+          "name": "Bleecker Street",
+          "url": "https://bleeckerstreetmedia.com",
+          "description": "Independent film distribution",
+          "tags": [
+            "film",
+            "independent",
+            "distribution"
+          ]
+        },
+        {
+          "name": "AGBO",
+          "url": "https://agbo.com",
+          "description": "Russo Brothers production company",
+          "tags": [
+            "film",
+            "production",
+            "russo brothers"
+          ]
+        },
+        {
+          "name": "Bad Robot",
+          "url": "https://badrobot.com",
+          "description": "J.J. Abrams production company",
+          "tags": [
+            "film",
+            "production",
+            "jj abrams"
+          ]
+        },
+        {
+          "name": "Escape Artists",
+          "url": "https://escapeartists.com",
+          "description": "Film production company",
+          "tags": [
+            "film",
+            "production",
+            "company"
+          ]
+        },
+        {
+          "name": "FilmNation Entertainment",
+          "url": "https://filmnation.net",
+          "description": "Film production and sales",
+          "tags": [
+            "film",
+            "production",
+            "sales"
+          ]
+        },
+        {
+          "name": "Imagine Entertainment",
+          "url": "https://imagine-entertainment.com",
+          "description": "Ron Howard and Brian Grazer company",
+          "tags": [
+            "film",
+            "production",
+            "ron howard"
+          ]
+        },
+        {
+          "name": "Mandalay Pictures",
+          "url": "https://mandalay.com",
+          "description": "Peter Guber production company",
+          "tags": [
+            "film",
+            "production",
+            "peter guber"
+          ]
+        },
+        {
+          "name": "Platinum Dunes",
+          "url": "https://platinumdunes.com",
+          "description": "Michael Bay production company",
+          "tags": [
+            "film",
+            "production",
+            "michael bay"
+          ]
+        },
+        {
+          "name": "The Film Stage",
+          "url": "https://thefilmstage.com",
+          "description": "Film news and reviews",
+          "tags": [
+            "film",
+            "news",
+            "reviews"
+          ]
+        },
+        {
+          "name": "The Playlist",
+          "url": "https://theplaylist.net",
+          "description": "Film and TV news",
+          "tags": [
+            "film",
+            "tv",
+            "news"
+          ]
+        },
+        {
+          "name": "Bloody Disgusting",
+          "url": "https://bloody-disgusting.com",
+          "description": "Horror film news",
+          "tags": [
+            "film",
+            "horror",
+            "news"
+          ]
+        },
+        {
+          "name": "Dread Central",
+          "url": "https://dreadcentral.com",
+          "description": "Horror film news",
+          "tags": [
+            "film",
+            "horror",
+            "news"
+          ]
+        },
+        {
+          "name": "Reverse Shot",
+          "url": "https://reverseshot.org",
+          "description": "Film criticism quarterly",
+          "tags": [
+            "film",
+            "criticism",
+            "quarterly"
+          ]
+        },
+        {
+          "name": "Senses of Cinema",
+          "url": "https://sensesofcinema.com",
+          "description": "Film criticism journal",
+          "tags": [
+            "film",
+            "criticism",
+            "journal"
+          ]
+        },
+        {
+          "name": "Little White Lies",
+          "url": "https://lwlies.com",
+          "description": "Film magazine with illustrations",
+          "tags": [
+            "film",
+            "magazine",
+            "illustrated"
+          ]
+        },
+        {
+          "name": "Empire",
+          "url": "https://empireonline.com",
+          "description": "British film magazine",
+          "tags": [
+            "film",
+            "magazine",
+            "british"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "luxury_fashion_ecommerce",
+      "name": "Luxury Fashion E-Commerce",
+      "description": "Editorial-first fashion retail where lookbooks drive navigation and storytelling maximizes over quick purchase",
+      "filters": [
+        "Product photography shot on film or large-format digital",
+        "No visible UI chrome (borders, buttons minimized)",
+        "Hover states that reveal secondary imagery",
+        "Lookbook-first navigation (not category-driven)",
+        "Editorial content mixed with commerce",
+        "Loaders/transitions that feel like scene changes",
+        "'Add to bag' minimized; storytelling maximized",
+        "Mobile experience mirrors editorial app, not retail"
+      ],
+      "sources": [
+        {
+          "name": "Tres Bien",
+          "url": "https://tres-bien.com",
+          "description": "Swedish minimalism, typographic excellence",
+          "tags": [
+            "e-commerce",
+            "swedish",
+            "minimal",
+            "typography"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "MatchesFashion",
+          "url": "https://www.matchesfashion.com",
+          "description": "Clean editorial layout with magazine-style storytelling",
+          "tags": [
+            "e-commerce",
+            "luxury",
+            "editorial",
+            "magazine"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Mytheresa",
+          "url": "https://www.mytheresa.com",
+          "description": "German precision meets editorial luxury",
+          "tags": [
+            "e-commerce",
+            "luxury",
+            "german",
+            "precision"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "H. Lorenzo",
+          "url": "https://www.hlorenzo.com",
+          "description": "LA avant-garde, sparse and moody",
+          "tags": [
+            "e-commerce",
+            "avant-garde",
+            "la",
+            "moody"
+          ]
+        },
+        {
+          "name": "Dover Street Market",
+          "url": "https://www.doverstreetmarket.com",
+          "description": "Comme des Garçons chaos meets editorial discipline",
+          "tags": [
+            "e-commerce",
+            "concept store",
+            "cdg",
+            "editorial"
+          ]
+        },
+        {
+          "name": "Kith",
+          "url": "https://kith.com",
+          "description": "Streetwear elevated to editorial art direction",
+          "tags": [
+            "e-commerce",
+            "streetwear",
+            "editorial",
+            "ronnie fieg"
+          ]
+        },
+        {
+          "name": "Union Los Angeles",
+          "url": "https://store.unionlosangeles.com",
+          "description": "Curated, sparse, cult brand focus",
+          "tags": [
+            "e-commerce",
+            "streetwear",
+            "curated",
+            "cult"
+          ]
+        },
+        {
+          "name": "Bodega",
+          "url": "https://bdgastore.com",
+          "description": "Underground, typographic, editorial product stories",
+          "tags": [
+            "e-commerce",
+            "streetwear",
+            "underground",
+            "typography"
+          ]
+        },
+        {
+          "name": "Slam Jam",
+          "url": "https://slamjam.com",
+          "description": "Italian street culture meets editorial design",
+          "tags": [
+            "e-commerce",
+            "streetwear",
+            "italian",
+            "culture"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "GR8",
+          "url": "https://gr8.jp",
+          "description": "Tokyo's most directional boutique, chaotic editorial energy",
+          "tags": [
+            "e-commerce",
+            "tokyo",
+            "boutique",
+            "directional"
+          ]
+        },
+        {
+          "name": "Machine-A",
+          "url": "https://machine-a.com",
+          "description": "London avant-garde, minimalist presentation",
+          "tags": [
+            "e-commerce",
+            "avant-garde",
+            "london",
+            "minimal"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Antonioli",
+          "url": "https://www.antonioli.eu",
+          "description": "Milanese dark luxury, atmospheric",
+          "tags": [
+            "e-commerce",
+            "luxury",
+            "milan",
+            "dark"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "The Broken Arm",
+          "url": "https://the-broken-arm.com",
+          "description": "Parisian concept store, editorial curation",
+          "tags": [
+            "e-commerce",
+            "concept store",
+            "paris",
+            "curation"
+          ]
+        },
+        {
+          "name": "Voo Store",
+          "url": "https://vooberlin.com",
+          "description": "Berlin minimalism, architectural photography",
+          "tags": [
+            "e-commerce",
+            "berlin",
+            "minimal",
+            "architectural"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Goodhood",
+          "url": "https://goodhoodstore.com",
+          "description": "London lifestyle curation, editorial tone",
+          "tags": [
+            "e-commerce",
+            "london",
+            "lifestyle",
+            "curation"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Norse Store",
+          "url": "https://norsestore.com",
+          "description": "Copenhagen clean, Scandinavian editorial",
+          "tags": [
+            "e-commerce",
+            "copenhagen",
+            "scandinavian",
+            "clean"
+          ]
+        },
+        {
+          "name": "Wood Wood",
+          "url": "https://woodwood.com",
+          "description": "Danish design sensibility, editorial lookbooks",
+          "tags": [
+            "e-commerce",
+            "danish",
+            "design",
+            "lookbooks"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Acne Studios",
+          "url": "https://www.acnestudios.com",
+          "description": "Jonny Johansson's art direction translated to web",
+          "tags": [
+            "brand",
+            "swedish",
+            "art direction",
+            "minimal"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Our Legacy",
+          "url": "https://www.ourlegacy.com",
+          "description": "Swedish understated luxury, sparse presentation",
+          "tags": [
+            "brand",
+            "swedish",
+            "luxury",
+            "understated"
+          ]
+        },
+        {
+          "name": "Totême",
+          "url": "https://toteme-studio.com",
+          "description": "Elin Kling's minimalist vision, editorial perfection",
+          "tags": [
+            "brand",
+            "swedish",
+            "minimalist",
+            "elin kling"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Lemaire",
+          "url": "https://www.lemaire.fr",
+          "description": "Christophe Lemaire's quiet luxury, atmospheric",
+          "tags": [
+            "brand",
+            "french",
+            "luxury",
+            "quiet"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "The Row",
+          "url": "https://therow.com",
+          "description": "Olsen twins' ultra-minimal luxury",
+          "tags": [
+            "brand",
+            "american",
+            "luxury",
+            "minimal"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Jil Sander",
+          "url": "https://www.jilsander.com",
+          "description": "Lucie and Luke Meier's clean editorial",
+          "tags": [
+            "brand",
+            "german",
+            "minimal",
+            "clean"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Maison Margiela",
+          "url": "https://www.maisonmargiela.com",
+          "description": "Galliano's avant-garde theatricality",
+          "tags": [
+            "brand",
+            "french",
+            "avant-garde",
+            "galliano"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Rick Owens",
+          "url": "https://www.rickowens.eu",
+          "description": "Dark, architectural, moody presentation",
+          "tags": [
+            "brand",
+            "american",
+            "dark",
+            "architectural"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Yohji Yamamoto",
+          "url": "https://www.yohjiyamamoto.co.jp",
+          "description": "Japanese avant-garde, black-on-black editorial",
+          "tags": [
+            "brand",
+            "japanese",
+            "avant-garde",
+            "black"
+          ]
+        },
+        {
+          "name": "Comme des Garçons",
+          "url": "https://www.comme-des-garcons.com",
+          "description": "Rei Kawakubo's conceptual web presence",
+          "tags": [
+            "brand",
+            "japanese",
+            "conceptual",
+            "rei kawakubo"
+          ]
+        },
+        {
+          "name": "Issey Miyake",
+          "url": "https://www.isseymiyake.com",
+          "description": "Technical precision, editorial lookbooks",
+          "tags": [
+            "brand",
+            "japanese",
+            "technical",
+            "pleats"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Sacai",
+          "url": "https://sacai.jp",
+          "description": "Chitose Abe's hybrid luxury, clean presentation",
+          "tags": [
+            "brand",
+            "japanese",
+            "hybrid",
+            "chitose abe"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Visvim",
+          "url": "https://www.visvim.tv",
+          "description": "Hiroki Nakamura's folk luxury, editorial storytelling",
+          "tags": [
+            "brand",
+            "japanese",
+            "folk",
+            "hiroki nakamura"
+          ]
+        },
+        {
+          "name": "Kapital",
+          "url": "https://www.kapital.jp",
+          "description": "Japanese heritage, dense editorial photography",
+          "tags": [
+            "brand",
+            "japanese",
+            "heritage",
+            "denim"
+          ]
+        },
+        {
+          "name": "Engineered Garments",
+          "url": "https://engineeredgarments.com",
+          "description": "Daiki Suzuki's workwear editorial",
+          "tags": [
+            "brand",
+            "american",
+            "workwear",
+            "daiki suzuki"
+          ]
+        },
+        {
+          "name": "Nanamica",
+          "url": "https://www.nanamica.com",
+          "description": "Japanese technical wear, clean editorial",
+          "tags": [
+            "brand",
+            "japanese",
+            "technical",
+            "outdoor"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Goldwin",
+          "url": "https://www.goldwin.co.jp",
+          "description": "Japanese outdoor luxury, minimalist presentation",
+          "tags": [
+            "brand",
+            "japanese",
+            "outdoor",
+            "technical"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "and Wander",
+          "url": "https://www.andwander.com",
+          "description": "Technical outdoor, editorial lookbooks",
+          "tags": [
+            "brand",
+            "japanese",
+            "outdoor",
+            "technical"
+          ]
+        },
+        {
+          "name": "White Mountaineering",
+          "url": "https://whitemountaineering.com",
+          "description": "Yosuke Aizawa's mountain luxury",
+          "tags": [
+            "brand",
+            "japanese",
+            "mountain",
+            "technical"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Meanswhile",
+          "url": "https://meanswhile.net",
+          "description": "Japanese functional wear, editorial design",
+          "tags": [
+            "brand",
+            "japanese",
+            "functional",
+            "technical"
+          ]
+        },
+        {
+          "name": "Cav Empt",
+          "url": "https://cavempt.com",
+          "description": "Sk8thing's graphic-heavy, atmospheric",
+          "tags": [
+            "brand",
+            "japanese",
+            "streetwear",
+            "sk8thing"
+          ]
+        },
+        {
+          "name": "Patta",
+          "url": "https://patta.nl",
+          "description": "Amsterdam street culture, editorial storytelling",
+          "tags": [
+            "brand",
+            "dutch",
+            "streetwear",
+            "amsterdam"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Aimé Leon Dore",
+          "url": "https://aimeleondore.com",
+          "description": "Teddy Santis' nostalgic New York editorial",
+          "tags": [
+            "brand",
+            "american",
+            "streetwear",
+            "nostalgic"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Fear of God",
+          "url": "https://fearofgod.com",
+          "description": "Jerry Lorenzo's luxury streetwear, atmospheric",
+          "tags": [
+            "brand",
+            "american",
+            "luxury",
+            "streetwear"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Amiri",
+          "url": "https://amiri.com",
+          "description": "Mike Amiri's rock luxury, moody presentation",
+          "tags": [
+            "brand",
+            "american",
+            "luxury",
+            "rock"
+          ]
+        },
+        {
+          "name": "Saint Laurent",
+          "url": "https://www.ysl.com",
+          "description": "Anthony Vaccarello's dark glamour",
+          "tags": [
+            "brand",
+            "french",
+            "luxury",
+            "glamour"
+          ]
+        },
+        {
+          "name": "Celine",
+          "url": "https://www.celine.com",
+          "description": "Hedi Slimane's grainy editorial photography",
+          "tags": [
+            "brand",
+            "french",
+            "luxury",
+            "hedi slimane"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Balenciaga",
+          "url": "https://www.balenciaga.com",
+          "description": "Demna's ironic luxury, bold typography",
+          "tags": [
+            "brand",
+            "french",
+            "luxury",
+            "demna"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Vetements",
+          "url": "https://vetementswebsite.com",
+          "description": "Demna's anti-fashion web presence",
+          "tags": [
+            "brand",
+            "french",
+            "anti-fashion",
+            "demna"
+          ]
+        },
+        {
+          "name": "Gucci",
+          "url": "https://www.gucci.com",
+          "description": "Alessandro Michele's maximalist editorial",
+          "tags": [
+            "brand",
+            "italian",
+            "luxury",
+            "maximalist"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Prada",
+          "url": "https://www.prada.com",
+          "description": "Raf and Miuccia's intellectual luxury",
+          "tags": [
+            "brand",
+            "italian",
+            "luxury",
+            "intellectual"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Miu Miu",
+          "url": "https://www.miumiu.com",
+          "description": "Playful, editorial, girlhood aesthetic",
+          "tags": [
+            "brand",
+            "italian",
+            "luxury",
+            "playful"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Loewe",
+          "url": "https://www.loewe.com",
+          "description": "Jonathan Anderson's craft-focused editorial",
+          "tags": [
+            "brand",
+            "spanish",
+            "luxury",
+            "craft"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "JW Anderson",
+          "url": "https://www.jwanderson.com",
+          "description": "Experimental, art-directed presentation",
+          "tags": [
+            "brand",
+            "british",
+            "experimental",
+            "art"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Bottega Veneta",
+          "url": "https://www.bottegaveneta.com",
+          "description": "Matthieu Blazy's quiet luxury",
+          "tags": [
+            "brand",
+            "italian",
+            "luxury",
+            "quiet"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "The Attico",
+          "url": "https://theattico.com",
+          "description": "Gilda and Giorgia's party girl editorial",
+          "tags": [
+            "brand",
+            "italian",
+            "luxury",
+            "party"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Blumarine",
+          "url": "https://blumarine.com",
+          "description": "Nicola Brognano's Y2K revival, moody",
+          "tags": [
+            "brand",
+            "italian",
+            "luxury",
+            "y2k"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Diesel",
+          "url": "https://diesel.com",
+          "description": "Glenn Martens' denim revolution, bold design",
+          "tags": [
+            "brand",
+            "italian",
+            "denim",
+            "glenn martens"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Courrèges",
+          "url": "https://courreges.com",
+          "description": "Nicolas Di Felice's space age revival",
+          "tags": [
+            "brand",
+            "french",
+            "luxury",
+            "space age"
+          ]
+        },
+        {
+          "name": "Coperni",
+          "url": "https://coperni.com",
+          "description": "Arnaud and Sébastien's tech luxury",
+          "tags": [
+            "brand",
+            "french",
+            "luxury",
+            "tech"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Jacquemus",
+          "url": "https://jacquemus.com",
+          "description": "Simon Porte's Provencal fantasy, editorial",
+          "tags": [
+            "brand",
+            "french",
+            "luxury",
+            "provence"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Marine Serre",
+          "url": "https://marineserre.com",
+          "description": "Apocalyptic luxury, graphic-heavy",
+          "tags": [
+            "brand",
+            "french",
+            "luxury",
+            "apocalyptic"
+          ]
+        },
+        {
+          "name": "Y/Project",
+          "url": "https://yproject.fr",
+          "description": "Glenn Martens' deconstructed luxury",
+          "tags": [
+            "brand",
+            "french",
+            "luxury",
+            "deconstructed"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Dries Van Noten",
+          "url": "https://driesvannoten.com",
+          "description": "Belgian romanticism, atmospheric editorial",
+          "tags": [
+            "brand",
+            "belgian",
+            "luxury",
+            "romanticism"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Ann Demeulemeester",
+          "url": "https://anndemeulemeester.com",
+          "description": "Ludovic de Saint Sernin's dark poetry",
+          "tags": [
+            "brand",
+            "belgian",
+            "luxury",
+            "poetry"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Grace Wales Bonner",
+          "url": "https://walesbonner.com",
+          "description": "Black Atlantic luxury, editorial poetry",
+          "tags": [
+            "brand",
+            "british",
+            "luxury",
+            "black atlantic"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Bianca Saunders",
+          "url": "https://biancasaunders.com",
+          "description": "British-Jamaican masculinity studies",
+          "tags": [
+            "brand",
+            "british",
+            "luxury",
+            "masculinity"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Kiko Kostadinov",
+          "url": "https://kikokostadinov.com",
+          "description": "Bulgarian-British technical wear",
+          "tags": [
+            "brand",
+            "british",
+            "technical",
+            "bulgarian"
+          ]
+        },
+        {
+          "name": "Affix",
+          "url": "https://affix.works",
+          "description": "Kiko and co's experimental label",
+          "tags": [
+            "brand",
+            "british",
+            "experimental",
+            "technical"
+          ]
+        },
+        {
+          "name": "C.P. Company",
+          "url": "https://cpcompany.com",
+          "description": "Massimo Ostoni's heritage sportswear",
+          "tags": [
+            "brand",
+            "italian",
+            "sportswear",
+            "heritage"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Stone Island",
+          "url": "https://stoneisland.com",
+          "description": "Carlo Rivetti's research-focused presentation",
+          "tags": [
+            "brand",
+            "italian",
+            "technical",
+            "research"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "The Webster",
+          "url": "https://thewebster.us",
+          "description": "Miami luxury boutique",
+          "tags": [
+            "fashion",
+            "luxury",
+            "miami"
+          ]
+        },
+        {
+          "name": "Union Los Angeles",
+          "url": "https://unionlosangeles.com",
+          "description": "LA streetwear institution",
+          "tags": [
+            "fashion",
+            "streetwear",
+            "los angeles"
+          ]
+        },
+        {
+          "name": "Concepts",
+          "url": "https://cncpts.com",
+          "description": "Boston sneaker and fashion boutique",
+          "tags": [
+            "fashion",
+            "sneakers",
+            "boston"
+          ]
+        },
+        {
+          "name": "Farfetch",
+          "url": "https://farfetch.com",
+          "description": "Global luxury marketplace",
+          "tags": [
+            "fashion",
+            "luxury",
+            "marketplace"
+          ]
+        },
+        {
+          "name": "LuisaViaRoma",
+          "url": "https://luisaviaroma.com",
+          "description": "Florentine luxury retailer",
+          "tags": [
+            "fashion",
+            "luxury",
+            "florence"
+          ]
+        },
+        {
+          "name": "Studios",
+          "url": "https://studios.co.uk",
+          "description": "UK streetwear retailer",
+          "tags": [
+            "fashion",
+            "streetwear",
+            "uk"
+          ]
+        },
+        {
+          "name": "Storm Copenhagen",
+          "url": "https://stormfashion.dk",
+          "description": "Copenhagen fashion boutique",
+          "tags": [
+            "fashion",
+            "boutique",
+            "copenhagen"
+          ]
+        },
+        {
+          "name": "Norse Projects",
+          "url": "https://norseprojects.com",
+          "description": "Copenhagen menswear",
+          "tags": [
+            "fashion",
+            "menswear",
+            "copenhagen"
+          ]
+        },
+        {
+          "name": "Our Legacy",
+          "url": "https://ourlegacy.se",
+          "description": "Swedish contemporary brand",
+          "tags": [
+            "fashion",
+            "contemporary",
+            "swedish"
+          ]
+        },
+        {
+          "name": "Filippa K",
+          "url": "https://filippa-k.com",
+          "description": "Swedish sustainable fashion",
+          "tags": [
+            "fashion",
+            "sustainable",
+            "swedish"
+          ]
+        },
+        {
+          "name": "Byredo",
+          "url": "https://byredo.com",
+          "description": "Swedish fragrance and fashion",
+          "tags": [
+            "fashion",
+            "fragrance",
+            "swedish"
+          ]
+        },
+        {
+          "name": "Eytys",
+          "url": "https://eytys.com",
+          "description": "Swedish footwear brand",
+          "tags": [
+            "fashion",
+            "footwear",
+            "swedish"
+          ]
+        },
+        {
+          "name": "Axel Arigato",
+          "url": "https://axelarigato.com",
+          "description": "Swedish sneaker brand",
+          "tags": [
+            "fashion",
+            "sneakers",
+            "swedish"
+          ]
+        },
+        {
+          "name": "J.Lindeberg",
+          "url": "https://jlindeberg.com",
+          "description": "Swedish sportswear luxury",
+          "tags": [
+            "fashion",
+            "sportswear",
+            "swedish"
+          ]
+        },
+        {
+          "name": "Hope Stockholm",
+          "url": "https://hopestockholm.com",
+          "description": "Swedish contemporary brand",
+          "tags": [
+            "fashion",
+            "contemporary",
+            "swedish"
+          ]
+        },
+        {
+          "name": "WESC",
+          "url": "https://wesc.com",
+          "description": "Swedish streetwear",
+          "tags": [
+            "fashion",
+            "streetwear",
+            "swedish"
+          ]
+        },
+        {
+          "name": "Nudie Jeans",
+          "url": "https://nudiejeans.com",
+          "description": "Swedish sustainable denim",
+          "tags": [
+            "fashion",
+            "denim",
+            "sustainable"
+          ]
+        },
+        {
+          "name": "Weekday",
+          "url": "https://weekday.com",
+          "description": "Swedish fashion retailer",
+          "tags": [
+            "fashion",
+            "retailer",
+            "swedish"
+          ]
+        },
+        {
+          "name": "Monki",
+          "url": "https://monki.com",
+          "description": "Swedish fashion brand",
+          "tags": [
+            "fashion",
+            "swedish",
+            "contemporary"
+          ]
+        },
+        {
+          "name": "Gina Tricot",
+          "url": "https://ginatricot.com",
+          "description": "Swedish fast fashion",
+          "tags": [
+            "fashion",
+            "fast fashion",
+            "swedish"
+          ]
+        },
+        {
+          "name": "Lindex",
+          "url": "https://lindex.com",
+          "description": "Swedish fashion retailer",
+          "tags": [
+            "fashion",
+            "retailer",
+            "swedish"
+          ]
+        },
+        {
+          "name": "KappAhl",
+          "url": "https://kappahl.com",
+          "description": "Swedish fashion chain",
+          "tags": [
+            "fashion",
+            "chain",
+            "swedish"
+          ]
+        },
+        {
+          "name": "MQ",
+          "url": "https://mq.se",
+          "description": "Swedish fashion retailer",
+          "tags": [
+            "fashion",
+            "retailer",
+            "swedish"
+          ]
+        },
+        {
+          "name": "Åhléns",
+          "url": "https://ahlens.se",
+          "description": "Swedish department store",
+          "tags": [
+            "fashion",
+            "department store",
+            "swedish"
+          ]
+        },
+        {
+          "name": "NK",
+          "url": "https://nk.se",
+          "description": "Swedish luxury department store",
+          "tags": [
+            "fashion",
+            "luxury",
+            "department store"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "art_culture_institutions",
+      "name": "Art & Culture Institutions",
+      "description": "Museums and galleries where collection databases become editorial experiences with calm, authoritative energy",
+      "filters": [
+        "Collection databases treated as editorial experiences",
+        "Exhibition microsites with immersive design",
+        "Sans-serif typography (Helvetica, Akzidenz, custom grotesques)",
+        "High-contrast black/white or institutional color systems",
+        "Archival photography presented with contemporary layout",
+        "Donor/membership sections that don't break the aesthetic",
+        "Accessibility compliance without visual compromise",
+        "Calm, authoritative, 'permanent collection' energy"
+      ],
+      "sources": [
+        {
+          "name": "Whitney Museum",
+          "url": "https://whitney.org",
+          "description": "American art with bold design",
+          "tags": [
+            "museum",
+            "american art",
+            "nyc",
+            "bold"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Guggenheim",
+          "url": "https://guggenheim.org",
+          "description": "Spiral architecture with clean design",
+          "tags": [
+            "museum",
+            "modern art",
+            "nyc",
+            "architecture"
+          ]
+        },
+        {
+          "name": "Metropolitan Museum",
+          "url": "https://metmuseum.org",
+          "description": "Encyclopedia of art with editorial presentation",
+          "tags": [
+            "museum",
+            "encyclopedia",
+            "nyc",
+            "comprehensive"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "New Museum",
+          "url": "https://newmuseum.org",
+          "description": "Contemporary art with experimental design",
+          "tags": [
+            "museum",
+            "contemporary",
+            "nyc",
+            "experimental"
+          ]
+        },
+        {
+          "name": "PS1",
+          "url": "https://momaps1.org",
+          "description": "MoMA's Queens outpost",
+          "tags": [
+            "museum",
+            "contemporary",
+            "queens",
+            "moma"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "The Shed",
+          "url": "https://theshed.org",
+          "description": "Hudson Yards culture center with flexible design",
+          "tags": [
+            "cultural center",
+            "nyc",
+            "flexible",
+            "experimental"
+          ]
+        },
+        {
+          "name": "Dia Art Foundation",
+          "url": "https://diaart.org",
+          "description": "Minimalist art with sparse design",
+          "tags": [
+            "foundation",
+            "minimalist",
+            "art",
+            "sparse"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "The Menil Collection",
+          "url": "https://menil.org",
+          "description": "Houston's private museum with serene design",
+          "tags": [
+            "museum",
+            "houston",
+            "private",
+            "serene"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "The Chinati Foundation",
+          "url": "https://chinati.org",
+          "description": "Donald Judd's Marfa art space",
+          "tags": [
+            "foundation",
+            "marfa",
+            "donald judd",
+            "minimalist"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Judd Foundation",
+          "url": "https://juddfoundation.org",
+          "description": "Donald Judd's work and archives",
+          "tags": [
+            "foundation",
+            "donald judd",
+            "archives",
+            "minimalist"
+          ]
+        },
+        {
+          "name": "Tate",
+          "url": "https://tate.org.uk",
+          "description": "British art with editorial design",
+          "tags": [
+            "museum",
+            "british",
+            "art",
+            "editorial"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Tate Modern",
+          "url": "https://tate.org.uk/visit/tate-modern",
+          "description": "Power Station conversion with industrial design",
+          "tags": [
+            "museum",
+            "modern",
+            "london",
+            "industrial"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Centre Pompidou",
+          "url": "https://centrepompidou.fr",
+          "description": "Inside-out architecture with bold design",
+          "tags": [
+            "museum",
+            "modern",
+            "paris",
+            "architecture"
+          ]
+        },
+        {
+          "name": "Louvre",
+          "url": "https://louvre.fr",
+          "description": "World's largest museum with encyclopedic design",
+          "tags": [
+            "museum",
+            "paris",
+            "encyclopedic",
+            "classic"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Gagosian",
+          "url": "https://gagosian.com",
+          "description": "Larry Gagosian's gallery empire",
+          "tags": [
+            "gallery",
+            "contemporary",
+            "global",
+            "blue chip"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "David Zwirner",
+          "url": "https://davidzwirner.com",
+          "description": "David Zwirner's gallery empire",
+          "tags": [
+            "gallery",
+            "contemporary",
+            "global",
+            "blue chip"
+          ]
+        },
+        {
+          "name": "White Cube",
+          "url": "https://whitecube.com",
+          "description": "Jay Jopling's London gallery",
+          "tags": [
+            "gallery",
+            "contemporary",
+            "london",
+            "white"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Lisson Gallery",
+          "url": "https://lissongallery.com",
+          "description": "British conceptual art gallery",
+          "tags": [
+            "gallery",
+            "contemporary",
+            "british",
+            "conceptual"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Galerie Perrotin",
+          "url": "https://perrotin.com",
+          "description": "Emmanuel Perrotin's global gallery empire",
+          "tags": [
+            "gallery",
+            "contemporary",
+            "paris",
+            "global"
+          ]
+        },
+        {
+          "name": "Pace Gallery",
+          "url": "https://pacegallery.com",
+          "description": "Arne Glimcher's gallery empire",
+          "tags": [
+            "gallery",
+            "contemporary",
+            "global",
+            "blue chip"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "National Gallery London",
+          "url": "https://nationalgallery.org.uk",
+          "description": "UK national art collection",
+          "tags": [
+            "museum",
+            "classical",
+            "london"
+          ]
+        },
+        {
+          "name": "Victoria and Albert Museum",
+          "url": "https://vam.ac.uk",
+          "description": "World's leading art and design museum",
+          "tags": [
+            "museum",
+            "design",
+            "london"
+          ]
+        },
+        {
+          "name": "National Portrait Gallery",
+          "url": "https://npg.org.uk",
+          "description": "British portraiture",
+          "tags": [
+            "museum",
+            "portraits",
+            "london"
+          ]
+        },
+        {
+          "name": "Whitechapel Gallery",
+          "url": "https://whitechapelgallery.org",
+          "description": "East London contemporary art",
+          "tags": [
+            "gallery",
+            "contemporary",
+            "london"
+          ]
+        },
+        {
+          "name": "Serpentine Galleries",
+          "url": "https://serpentinegalleries.org",
+          "description": "Kensington Gardens contemporary",
+          "tags": [
+            "gallery",
+            "contemporary",
+            "london"
+          ]
+        },
+        {
+          "name": "Barbican Centre",
+          "url": "https://barbican.org.uk",
+          "description": "Arts centre with gallery",
+          "tags": [
+            "arts centre",
+            "gallery",
+            "london"
+          ]
+        },
+        {
+          "name": "Institute of Contemporary Arts",
+          "url": "https://ica.art",
+          "description": "London ICA",
+          "tags": [
+            "gallery",
+            "contemporary",
+            "london"
+          ]
+        },
+        {
+          "name": "Camden Arts Centre",
+          "url": "https://camdenartscentre.org",
+          "description": "North London contemporary",
+          "tags": [
+            "gallery",
+            "contemporary",
+            "london"
+          ]
+        },
+        {
+          "name": "The Showroom",
+          "url": "https://theshowroom.org",
+          "description": "London contemporary art space",
+          "tags": [
+            "gallery",
+            "contemporary",
+            "london"
+          ]
+        },
+        {
+          "name": "Iniva",
+          "url": "https://iniva.org",
+          "description": "Institute of International Visual Arts",
+          "tags": [
+            "institute",
+            "international",
+            "london"
+          ]
+        },
+        {
+          "name": "Stedelijk Museum",
+          "url": "https://stedelijk.nl",
+          "description": "Amsterdam modern art",
+          "tags": [
+            "museum",
+            "modern art",
+            "amsterdam"
+          ]
+        },
+        {
+          "name": "Museum Boijmans",
+          "url": "https://boijmans.nl",
+          "description": "Rotterdam art collection",
+          "tags": [
+            "museum",
+            "art",
+            "rotterdam"
+          ]
+        },
+        {
+          "name": "Centraal Museum",
+          "url": "https://centraalmuseum.nl",
+          "description": "Utrecht art museum",
+          "tags": [
+            "museum",
+            "art",
+            "utrecht"
+          ]
+        },
+        {
+          "name": "Museum Voorlinden",
+          "url": "https://voorlinden.nl",
+          "description": "Wassenaar contemporary art",
+          "tags": [
+            "museum",
+            "contemporary",
+            "wassenaar"
+          ]
+        },
+        {
+          "name": "Kröller-Müller Museum",
+          "url": "https://krollermuller.nl",
+          "description": "Otterlo Van Gogh and sculpture",
+          "tags": [
+            "museum",
+            "van gogh",
+            "otterlo"
+          ]
+        },
+        {
+          "name": "Petit Palais",
+          "url": "https://petitpalais.paris.fr",
+          "description": "Paris fine arts museum",
+          "tags": [
+            "museum",
+            "fine arts",
+            "paris"
+          ]
+        },
+        {
+          "name": "Fondation Cartier",
+          "url": "https://fondationcartier.com",
+          "description": "Contemporary art foundation",
+          "tags": [
+            "foundation",
+            "contemporary",
+            "paris"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "independent_publishing",
+      "name": "Independent Publishing / Magazine",
+      "description": "Print-first publications translated to web with long-form text, issue-based navigation, and personal editorial voice",
+      "filters": [
+        "Print-first design language translated to web",
+        "Long-form text with generous line-height (1.6-1.8)",
+        "Sidebar or marginalia for annotations",
+        "Issue/archive navigation (not infinite scroll)",
+        "Contributor pages with portrait photography",
+        "Subscription/membership as primary CTA",
+        "Advertising integrated, not banner-based",
+        "'Editor's letter' or personal voice throughout"
+      ],
+      "sources": [
+        {
+          "name": "Apartamento",
+          "url": "https://apartamentomagazine.com",
+          "description": "Everyday interiors magazine—the reference for warm minimalism",
+          "tags": [
+            "magazine",
+            "interiors",
+            "minimalism",
+            "spanish"
+          ]
+        },
+        {
+          "name": "Aperture",
+          "url": "https://aperture.org",
+          "description": "Photography foundation and magazine",
+          "tags": [
+            "magazine",
+            "photography",
+            "foundation",
+            "american"
+          ]
+        },
+        {
+          "name": "Magnum Photos",
+          "url": "https://magnumphotos.com",
+          "description": "Photojournalism cooperative",
+          "tags": [
+            "agency",
+            "photography",
+            "photojournalism",
+            "global"
+          ]
+        },
+        {
+          "name": "MACK",
+          "url": "https://mackbooks.co.uk",
+          "description": "Art book publisher with editorial design",
+          "tags": [
+            "publisher",
+            "art books",
+            "photography",
+            "british"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Steidl",
+          "url": "https://steidl.de",
+          "description": "German art book publisher",
+          "tags": [
+            "publisher",
+            "art books",
+            "german",
+            "photography"
+          ]
+        },
+        {
+          "name": "Phaidon",
+          "url": "https://phaidon.com",
+          "description": "Art publisher with editorial design",
+          "tags": [
+            "publisher",
+            "art books",
+            "global",
+            "comprehensive"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Taschen",
+          "url": "https://taschen.com",
+          "description": "Art book publisher with bold design",
+          "tags": [
+            "publisher",
+            "art books",
+            "german",
+            "bold"
+          ]
+        },
+        {
+          "name": "Rizzoli",
+          "url": "https://rizzoliusa.com",
+          "description": "Art and fashion book publisher",
+          "tags": [
+            "publisher",
+            "art books",
+            "fashion",
+            "american"
+          ]
+        },
+        {
+          "name": "Assouline",
+          "url": "https://assouline.com",
+          "description": "Luxury book publisher",
+          "tags": [
+            "publisher",
+            "luxury",
+            "books",
+            "french"
+          ]
+        },
+        {
+          "name": "Chronicle Books",
+          "url": "https://chroniclebooks.com",
+          "description": "Illustrated books with playful design",
+          "tags": [
+            "publisher",
+            "illustrated",
+            "american",
+            "playful"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Abrams Books",
+          "url": "https://abramsbooks.com",
+          "description": "Art and illustrated book publisher",
+          "tags": [
+            "publisher",
+            "art books",
+            "american",
+            "illustrated"
+          ]
+        },
+        {
+          "name": "Princeton Architectural Press",
+          "url": "https://papress.com",
+          "description": "Architecture book publisher",
+          "tags": [
+            "publisher",
+            "architecture",
+            "american",
+            "academic"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Lars Müller Publishers",
+          "url": "https://lars-mueller-publishers.com",
+          "description": "Design book publisher",
+          "tags": [
+            "publisher",
+            "design",
+            "swiss",
+            "minimal"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Gestalten",
+          "url": "https://gestalten.com",
+          "description": "Creative books with bold design",
+          "tags": [
+            "publisher",
+            "creative",
+            "german",
+            "bold"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Unit Editions",
+          "url": "https://uniteditions.com",
+          "description": "Design books with editorial focus",
+          "tags": [
+            "publisher",
+            "design",
+            "british",
+            "editorial"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Counter-Print",
+          "url": "https://counter-print.co.uk",
+          "description": "Design books with curated selection",
+          "tags": [
+            "publisher",
+            "design",
+            "british",
+            "curated"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Fantastic Man",
+          "url": "https://fantasticman.com",
+          "description": "Men's style magazine",
+          "tags": [
+            "magazine",
+            "men",
+            "style"
+          ]
+        },
+        {
+          "name": "MacGuffin",
+          "url": "https://macguffinmagazine.com",
+          "description": "The life of things",
+          "tags": [
+            "magazine",
+            "design",
+            "objects"
+          ]
+        },
+        {
+          "name": "Pin-Up",
+          "url": "https://pinupmagazine.org",
+          "description": "Architecture and design",
+          "tags": [
+            "magazine",
+            "architecture",
+            "design"
+          ]
+        },
+        {
+          "name": "AnOther",
+          "url": "https://anothermag.com",
+          "description": "Fashion and culture",
+          "tags": [
+            "magazine",
+            "fashion",
+            "culture"
+          ]
+        },
+        {
+          "name": "Crack",
+          "url": "https://crackmagazine.net",
+          "description": "Music and culture",
+          "tags": [
+            "magazine",
+            "music",
+            "culture"
+          ]
+        },
+        {
+          "name": "Uncut",
+          "url": "https://uncut.co.uk",
+          "description": "Music and film",
+          "tags": [
+            "magazine",
+            "music",
+            "film"
+          ]
+        },
+        {
+          "name": "DownBeat",
+          "url": "https://downbeat.com",
+          "description": "Jazz magazine",
+          "tags": [
+            "magazine",
+            "jazz",
+            "music"
+          ]
+        },
+        {
+          "name": "JazzTimes",
+          "url": "https://jazztimes.com",
+          "description": "Jazz magazine",
+          "tags": [
+            "magazine",
+            "jazz",
+            "music"
+          ]
+        },
+        {
+          "name": "BBC Music Magazine",
+          "url": "https://classical-music.com",
+          "description": "Classical music",
+          "tags": [
+            "magazine",
+            "classical",
+            "music"
+          ]
+        },
+        {
+          "name": "Pointe",
+          "url": "https://pointemagazine.com",
+          "description": "Ballet magazine",
+          "tags": [
+            "magazine",
+            "dance",
+            "ballet"
+          ]
+        },
+        {
+          "name": "Dance Magazine",
+          "url": "https://dancemagazine.com",
+          "description": "Dance publication",
+          "tags": [
+            "magazine",
+            "dance",
+            "culture"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "creative_studios",
+      "name": "Creative Studios & Portfolios",
+      "description": "Agencies and studios where work speaks first, with custom interactions and WebGL experiments",
+      "filters": [
+        "Work-first homepage (no hero text)",
+        "Case studies with process documentation",
+        "Custom cursor interactions",
+        "WebGL or Three.js experiments",
+        "Studio philosophy/manifesto section",
+        "Team photography with personality",
+        "Client list as graphic element",
+        "Contact forms that feel like art projects"
+      ],
+      "sources": [
+        {
+          "name": "Pentagram",
+          "url": "https://pentagram.com",
+          "description": "World's largest independent design firm",
+          "tags": [
+            "studio",
+            "design",
+            "global",
+            "independent"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "2x4",
+          "url": "https://2x4.org",
+          "description": "Michael Rock's design studio",
+          "tags": [
+            "studio",
+            "design",
+            "nyc",
+            "michael rock"
+          ]
+        },
+        {
+          "name": "Linked by Air",
+          "url": "https://linkedbyair.net",
+          "description": "Web and exhibition design studio",
+          "tags": [
+            "studio",
+            "web design",
+            "exhibition",
+            "nyc"
+          ]
+        },
+        {
+          "name": "Dumbar",
+          "url": "https://studiodumbar.com",
+          "description": "Dutch branding with bold design",
+          "tags": [
+            "studio",
+            "branding",
+            "dutch",
+            "bold"
+          ]
+        },
+        {
+          "name": "Thonik",
+          "url": "https://thonik.nl",
+          "description": "Nikki Gonnissen's Dutch studio",
+          "tags": [
+            "studio",
+            "design",
+            "dutch",
+            "nikki gonnissen"
+          ]
+        },
+        {
+          "name": "KesselsKramer",
+          "url": "https://kesselskramer.com",
+          "description": "Amsterdam creative agency",
+          "tags": [
+            "agency",
+            "creative",
+            "amsterdam",
+            "experimental"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Buck",
+          "url": "https://buck.co",
+          "description": "Motion design studio",
+          "tags": [
+            "studio",
+            "motion",
+            "global",
+            "animation"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Giant Ant",
+          "url": "https://giantant.ca",
+          "description": "Motion and storytelling studio",
+          "tags": [
+            "studio",
+            "motion",
+            "canada",
+            "storytelling"
+          ]
+        },
+        {
+          "name": "Hello Monday",
+          "url": "https://hellomonday.com",
+          "description": "Creative studio with playful design",
+          "tags": [
+            "studio",
+            "creative",
+            "global",
+            "playful"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Locomotive",
+          "url": "https://locomotive.ca",
+          "description": "Montreal web studio with award-winning design",
+          "tags": [
+            "studio",
+            "web",
+            "montreal",
+            "award-winning"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "OKFocus",
+          "url": "https://okfoc.us",
+          "description": "Ryder Ripps' experimental studio",
+          "tags": [
+            "studio",
+            "experimental",
+            "nyc",
+            "ryder ripps"
+          ]
+        },
+        {
+          "name": "Instrument",
+          "url": "https://instrument.com",
+          "description": "Portland creative studio",
+          "tags": [
+            "studio",
+            "creative",
+            "portland",
+            "digital"
+          ]
+        },
+        {
+          "name": "R/GA",
+          "url": "https://rga.com",
+          "description": "Digital innovation agency",
+          "tags": [
+            "agency",
+            "digital",
+            "global",
+            "innovation"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "AKQA",
+          "url": "https://akqa.com",
+          "description": "Digital design and innovation agency",
+          "tags": [
+            "agency",
+            "digital",
+            "global",
+            "design"
+          ]
+        },
+        {
+          "name": "Huge",
+          "url": "https://hugeinc.com",
+          "description": "Brooklyn digital agency",
+          "tags": [
+            "agency",
+            "digital",
+            "brooklyn",
+            "design"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "IDEO",
+          "url": "https://ideo.com",
+          "description": "Design thinking pioneers",
+          "tags": [
+            "studio",
+            "design thinking",
+            "global",
+            "innovation"
+          ]
+        },
+        {
+          "name": "Frog Design",
+          "url": "https://frogdesign.com",
+          "description": "Hardware and digital design",
+          "tags": [
+            "studio",
+            "design",
+            "global",
+            "product"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Wolff Olins",
+          "url": "https://wolffolins.com",
+          "description": "Brand innovation agency",
+          "tags": [
+            "agency",
+            "branding",
+            "global",
+            "innovation"
+          ]
+        },
+        {
+          "name": "Moving Brands",
+          "url": "https://movingbrands.com",
+          "description": "Design and innovation studio",
+          "tags": [
+            "studio",
+            "design",
+            "global",
+            "innovation"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "DesignStudio",
+          "url": "https://design.studio",
+          "description": "Brand and digital design",
+          "tags": [
+            "studio",
+            "branding",
+            "london"
+          ]
+        },
+        {
+          "name": "Ragged Edge",
+          "url": "https://raggededge.com",
+          "description": "Brand agency",
+          "tags": [
+            "studio",
+            "branding",
+            "london"
+          ]
+        },
+        {
+          "name": "SomeOne",
+          "url": "https://someoneinlondon.com",
+          "description": "London brand agency",
+          "tags": [
+            "studio",
+            "branding",
+            "london"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "design_architecture",
+      "name": "Design & Architecture",
+      "description": "Architecture publications and design platforms with uniform grids, material palettes, and location-based navigation",
+      "filters": [
+        "Project thumbnails as uniform grids (no masonry)",
+        "Technical specifications alongside beauty shots",
+        "Material palette swatches",
+        "Collaborator/team credits prominently displayed",
+        "Publication/press section with PDF downloads",
+        "Awards as validation, not decoration",
+        "Location-based navigation (map integration)",
+        "Sustainable/ethical practice documentation"
+      ],
+      "sources": [
+        {
+          "name": "Designboom",
+          "url": "https://designboom.com",
+          "description": "Design and architecture news",
+          "tags": [
+            "design",
+            "architecture",
+            "news",
+            "global"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Archinect",
+          "url": "https://archinect.com",
+          "description": "Architecture community platform",
+          "tags": [
+            "architecture",
+            "community",
+            "platform",
+            "global"
+          ]
+        },
+        {
+          "name": "Architizer",
+          "url": "https://architizer.com",
+          "description": "Architecture database and awards",
+          "tags": [
+            "architecture",
+            "database",
+            "awards",
+            "global"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "The Architect's Newspaper",
+          "url": "https://archpaper.com",
+          "description": "Architecture journalism",
+          "tags": [
+            "architecture",
+            "journalism",
+            "american",
+            "news"
+          ]
+        },
+        {
+          "name": "Architectural Record",
+          "url": "https://architecturalrecord.com",
+          "description": "Professional architecture magazine",
+          "tags": [
+            "architecture",
+            "professional",
+            "american",
+            "magazine"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Architectural Review",
+          "url": "https://architectural-review.com",
+          "description": "British architecture criticism",
+          "tags": [
+            "architecture",
+            "criticism",
+            "british",
+            "magazine"
+          ]
+        },
+        {
+          "name": "Domus",
+          "url": "https://domusweb.it",
+          "description": "Italian architecture and design magazine",
+          "tags": [
+            "architecture",
+            "design",
+            "italian",
+            "magazine"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Abitare",
+          "url": "https://abitare.it",
+          "description": "Italian design magazine",
+          "tags": [
+            "design",
+            "italian",
+            "magazine",
+            "lifestyle"
+          ]
+        },
+        {
+          "name": "Eye Magazine",
+          "url": "https://eyemagazine.com",
+          "description": "Graphic design journalism",
+          "tags": [
+            "design",
+            "graphic",
+            "journalism",
+            "british"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Print Magazine",
+          "url": "https://printmag.com",
+          "description": "Design history and culture",
+          "tags": [
+            "design",
+            "history",
+            "american",
+            "magazine"
+          ]
+        },
+        {
+          "name": "The Brand Identity",
+          "url": "https://the-brandidentity.com",
+          "description": "Brand design editorial platform",
+          "tags": [
+            "design",
+            "branding",
+            "british",
+            "editorial"
+          ]
+        },
+        {
+          "name": "BP&O",
+          "url": "https://bpando.org",
+          "description": "Richard Baird's branding blog",
+          "tags": [
+            "design",
+            "branding",
+            "blog",
+            "british"
+          ]
+        },
+        {
+          "name": "Under Consideration",
+          "url": "https://underconsideration.com",
+          "description": "Armin Vit's design criticism",
+          "tags": [
+            "design",
+            "criticism",
+            "american",
+            "blog"
+          ]
+        },
+        {
+          "name": "Brand New",
+          "url": "https://underconsideration.com/brandnew",
+          "description": "Identity design criticism",
+          "tags": [
+            "design",
+            "branding",
+            "identity",
+            "criticism"
+          ]
+        },
+        {
+          "name": "Communication Arts",
+          "url": "https://commarts.com",
+          "description": "Design competition and editorial",
+          "tags": [
+            "design",
+            "competition",
+            "american",
+            "magazine"
+          ]
+        },
+        {
+          "name": "Graphis",
+          "url": "https://graphis.com",
+          "description": "Design annual and portfolio",
+          "tags": [
+            "design",
+            "annual",
+            "portfolio",
+            "american"
+          ]
+        },
+        {
+          "name": "D&AD",
+          "url": "https://dandad.org",
+          "description": "British design and advertising awards",
+          "tags": [
+            "design",
+            "awards",
+            "british",
+            "advertising"
+          ]
+        },
+        {
+          "name": "The One Club",
+          "url": "https://oneclub.org",
+          "description": "Advertising and design awards",
+          "tags": [
+            "design",
+            "awards",
+            "american",
+            "advertising"
+          ]
+        },
+        {
+          "name": "Clio Awards",
+          "url": "https://clioawards.com",
+          "description": "Advertising awards with editorial design",
+          "tags": [
+            "advertising",
+            "awards",
+            "american",
+            "editorial"
+          ]
+        },
+        {
+          "name": "Lürzer's Archive",
+          "url": "https://luerzersarchive.com",
+          "description": "Advertising collection and database",
+          "tags": [
+            "advertising",
+            "collection",
+            "database",
+            "global"
+          ]
+        },
+        {
+          "name": "Zaha Hadid Architects",
+          "url": "https://zaha-hadid.com",
+          "description": "Parametric architecture",
+          "tags": [
+            "architecture",
+            "parametric",
+            "london"
+          ]
+        },
+        {
+          "name": "Foster + Partners",
+          "url": "https://fosterandpartners.com",
+          "description": "High-tech architecture",
+          "tags": [
+            "architecture",
+            "high-tech",
+            "london"
+          ]
+        },
+        {
+          "name": "David Chipperfield",
+          "url": "https://davidchipperfield.com",
+          "description": "Refined minimalism",
+          "tags": [
+            "architecture",
+            "minimalist",
+            "london"
+          ]
+        },
+        {
+          "name": "John Pawson",
+          "url": "https://johnpawson.com",
+          "description": "Minimalist master",
+          "tags": [
+            "architecture",
+            "minimalist",
+            "london"
+          ]
+        },
+        {
+          "name": "Norm Architects",
+          "url": "https://normcph.com",
+          "description": "Danish minimalism",
+          "tags": [
+            "architecture",
+            "minimalist",
+            "copenhagen"
+          ]
+        },
+        {
+          "name": "Bjarke Ingels Group",
+          "url": "https://big.dk",
+          "description": "Hedonistic sustainability",
+          "tags": [
+            "architecture",
+            "sustainable",
+            "copenhagen"
+          ]
+        },
+        {
+          "name": "3XN",
+          "url": "https://3xn.com",
+          "description": "Danish architecture",
+          "tags": [
+            "architecture",
+            "contemporary",
+            "copenhagen"
+          ]
+        },
+        {
+          "name": "Henning Larsen",
+          "url": "https://henninglarsen.com",
+          "description": "Light and life",
+          "tags": [
+            "architecture",
+            "light",
+            "copenhagen"
+          ]
+        },
+        {
+          "name": "Dorte Mandrup",
+          "url": "https://dortemandrup.dk",
+          "description": "Sculptural architecture",
+          "tags": [
+            "architecture",
+            "sculptural",
+            "copenhagen"
+          ]
+        },
+        {
+          "name": "COBE",
+          "url": "https://cobe.dk",
+          "description": "Public architecture",
+          "tags": [
+            "architecture",
+            "public",
+            "copenhagen"
+          ]
+        },
+        {
+          "name": "Adept",
+          "url": "https://adept.dk",
+          "description": "Urban architecture",
+          "tags": [
+            "architecture",
+            "urban",
+            "copenhagen"
+          ]
+        },
+        {
+          "name": "Effekt",
+          "url": "https://effekt.dk",
+          "description": "Adaptive reuse",
+          "tags": [
+            "architecture",
+            "adaptive",
+            "copenhagen"
+          ]
+        },
+        {
+          "name": "Praksis",
+          "url": "https://praksisarkitekter.dk",
+          "description": "Contextual architecture",
+          "tags": [
+            "architecture",
+            "contextual",
+            "copenhagen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "photography_visual_art",
+      "name": "Photography & Visual Arts",
+      "description": "Photography platforms and visual art marketplaces with full-screen viewers and archival respect",
+      "filters": [
+        "Full-screen image viewer with keyboard navigation",
+        "EXIF data or technical details optional",
+        "Series/sequence-based organization",
+        "Black background for image viewing",
+        "Minimal UI that disappears on scroll",
+        "Print/purchase integration",
+        "Artist statement alongside work",
+        "Archive treated with curatorial respect"
+      ],
+      "sources": [
+        {
+          "name": "The Photographers' Gallery",
+          "url": "https://thephotographersgallery.org.uk",
+          "description": "London photography institution",
+          "tags": [
+            "photography",
+            "gallery",
+            "london",
+            "exhibitions"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "ICP",
+          "url": "https://icp.org",
+          "description": "International Center of Photography",
+          "tags": [
+            "photography",
+            "institution",
+            "nyc",
+            "education"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Paris Photo",
+          "url": "https://parisphoto.com",
+          "description": "Photography fair",
+          "tags": [
+            "photography",
+            "fair",
+            "paris",
+            "market"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "AIPAD",
+          "url": "https://aipad.com",
+          "description": "Photography dealers association",
+          "tags": [
+            "photography",
+            "dealers",
+            "american",
+            "market"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "1stDibs",
+          "url": "https://1stdibs.com",
+          "description": "Design and art marketplace",
+          "tags": [
+            "art",
+            "marketplace",
+            "luxury",
+            "global"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Saatchi Art",
+          "url": "https://saatchiart.com",
+          "description": "Online art gallery",
+          "tags": [
+            "art",
+            "gallery",
+            "online",
+            "global"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Artspace",
+          "url": "https://artspace.com",
+          "description": "Contemporary art marketplace",
+          "tags": [
+            "art",
+            "marketplace",
+            "contemporary",
+            "american"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Artnet",
+          "url": "https://artnet.com",
+          "description": "Art market information and data",
+          "tags": [
+            "art",
+            "market",
+            "data",
+            "global"
+          ]
+        },
+        {
+          "name": "ArtFacts",
+          "url": "https://artfacts.net",
+          "description": "Artist rankings and database",
+          "tags": [
+            "art",
+            "database",
+            "rankings",
+            "global"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "MutualArt",
+          "url": "https://mutualart.com",
+          "description": "Art market intelligence",
+          "tags": [
+            "art",
+            "market",
+            "intelligence",
+            "global"
+          ]
+        },
+        {
+          "name": "LiveAuctioneers",
+          "url": "https://liveauctioneers.com",
+          "description": "Auction platform",
+          "tags": [
+            "art",
+            "auction",
+            "platform",
+            "global"
+          ]
+        },
+        {
+          "name": "Bidsquare",
+          "url": "https://bidsquare.com",
+          "description": "Auction platform",
+          "tags": [
+            "art",
+            "auction",
+            "platform",
+            "american"
+          ]
+        },
+        {
+          "name": "Christie's",
+          "url": "https://christies.com",
+          "description": "Auction house",
+          "tags": [
+            "art",
+            "auction",
+            "house",
+            "global"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Sotheby's",
+          "url": "https://sothebys.com",
+          "description": "Auction house",
+          "tags": [
+            "art",
+            "auction",
+            "house",
+            "global"
+          ]
+        },
+        {
+          "name": "Phillips",
+          "url": "https://phillips.com",
+          "description": "Contemporary art auction",
+          "tags": [
+            "art",
+            "auction",
+            "contemporary",
+            "global"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "VII Photo",
+          "url": "https://viiphoto.com",
+          "description": "Documentary photography",
+          "tags": [
+            "photography",
+            "documentary",
+            "international"
+          ]
+        },
+        {
+          "name": "NOOR",
+          "url": "https://noorimages.com",
+          "description": "Documentary photography",
+          "tags": [
+            "photography",
+            "documentary",
+            "international"
+          ]
+        },
+        {
+          "name": "Panos Pictures",
+          "url": "https://panos.co.uk",
+          "description": "Photo agency",
+          "tags": [
+            "photography",
+            "agency",
+            "london"
+          ]
+        },
+        {
+          "name": "Stocksy",
+          "url": "https://stocksy.com",
+          "description": "Artist-owned stock",
+          "tags": [
+            "photography",
+            "stock",
+            "cooperative"
+          ]
+        },
+        {
+          "name": "Arcangel",
+          "url": "https://arcangel.com",
+          "description": "Premium image licensing",
+          "tags": [
+            "photography",
+            "licensing",
+            "premium"
+          ]
+        },
+        {
+          "name": "World Press Photo",
+          "url": "https://worldpressphoto.org",
+          "description": "Photojournalism contest",
+          "tags": [
+            "photography",
+            "contest",
+            "international"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "music_culture",
+      "name": "Music & Culture",
+      "description": "Music platforms and culture publications with audio-first interactions and dark mode defaults",
+      "filters": [
+        "Audio-first interactions (hover to preview)",
+        "Dark mode default (black or deep navy)",
+        "Tour dates as primary content",
+        "Merch integrated with editorial",
+        "Lyric/visual synchronization",
+        "Community/forum elements",
+        "Genre-defying categorization",
+        "Collaborator web (featured artists, producers)"
+      ],
+      "sources": [
+        {
+          "name": "Pitchfork",
+          "url": "https://pitchfork.com",
+          "description": "Music journalism authority",
+          "tags": [
+            "music",
+            "journalism",
+            "american",
+            "condé nast"
+          ]
+        },
+        {
+          "name": "Fact Magazine",
+          "url": "https://factmag.com",
+          "description": "Music and visual culture",
+          "tags": [
+            "music",
+            "culture",
+            "british",
+            "visual"
+          ]
+        },
+        {
+          "name": "The Wire",
+          "url": "https://thewire.co.uk",
+          "description": "Adventurous music journalism",
+          "tags": [
+            "music",
+            "journalism",
+            "british",
+            "experimental"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "MOJO",
+          "url": "https://mojo4music.com",
+          "description": "Classic rock journalism",
+          "tags": [
+            "music",
+            "rock",
+            "british",
+            "classic"
+          ]
+        },
+        {
+          "name": "The Fader",
+          "url": "https://thefader.com",
+          "description": "Music and style journalism",
+          "tags": [
+            "music",
+            "style",
+            "american",
+            "culture"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Hypebeast",
+          "url": "https://hypebeast.com",
+          "description": "Streetwear culture empire by Kevin Ma",
+          "tags": [
+            "culture",
+            "streetwear",
+            "hong kong",
+            "empire"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Highsnobiety",
+          "url": "https://highsnobiety.com",
+          "description": "Luxury streetwear culture by David Fischer",
+          "tags": [
+            "culture",
+            "streetwear",
+            "german",
+            "luxury"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Complex",
+          "url": "https://complex.com",
+          "description": "Street culture journalism by Marc Ecko",
+          "tags": [
+            "culture",
+            "streetwear",
+            "american",
+            "journalism"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Genius",
+          "url": "https://genius.com",
+          "description": "Lyrics and annotations platform",
+          "tags": [
+            "music",
+            "lyrics",
+            "annotations",
+            "american"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Bandcamp",
+          "url": "https://bandcamp.com",
+          "description": "Independent music platform",
+          "tags": [
+            "music",
+            "independent",
+            "platform",
+            "american"
+          ]
+        },
+        {
+          "name": "SoundCloud",
+          "url": "https://soundcloud.com",
+          "description": "Music platform for creators",
+          "tags": [
+            "music",
+            "platform",
+            "german",
+            "creators"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Last.fm",
+          "url": "https://last.fm",
+          "description": "Music scrobbling and recommendations",
+          "tags": [
+            "music",
+            "scrobbling",
+            "british",
+            "recommendations"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Songkick",
+          "url": "https://songkick.com",
+          "description": "Concert listings and tracking",
+          "tags": [
+            "music",
+            "concerts",
+            "british",
+            "listings"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Dice",
+          "url": "https://dice.fm",
+          "description": "Ticketing platform",
+          "tags": [
+            "music",
+            "ticketing",
+            "british",
+            "app"
+          ]
+        },
+        {
+          "name": "Bandcamp Daily",
+          "url": "https://daily.bandcamp.com",
+          "description": "Music journalism by Bandcamp",
+          "tags": [
+            "music",
+            "journalism",
+            "american",
+            "editorial"
+          ]
+        },
+        {
+          "name": "The Quietus",
+          "url": "https://thequietus.com",
+          "description": "Music criticism",
+          "tags": [
+            "music",
+            "criticism",
+            "british",
+            "experimental"
+          ]
+        },
+        {
+          "name": "Stereogum",
+          "url": "https://stereogum.com",
+          "description": "Music news and reviews",
+          "tags": [
+            "music",
+            "news",
+            "american",
+            "indie"
+          ]
+        },
+        {
+          "name": "Consequence of Sound",
+          "url": "https://consequenceofsound.net",
+          "description": "Music news and culture",
+          "tags": [
+            "music",
+            "news",
+            "american",
+            "culture"
+          ]
+        },
+        {
+          "name": "NME",
+          "url": "https://nme.com",
+          "description": "British music journalism",
+          "tags": [
+            "music",
+            "journalism",
+            "british",
+            "iconic"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Kerrang!",
+          "url": "https://kerrang.com",
+          "description": "Rock music magazine",
+          "tags": [
+            "music",
+            "rock",
+            "british",
+            "magazine"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Teenage Engineering",
+          "url": "https://teenage.engineering",
+          "description": "Swedish synth design with editorial presentation",
+          "tags": [
+            "product",
+            "audio",
+            "swedish",
+            "design"
+          ]
+        },
+        {
+          "name": "Novation",
+          "url": "https://novationmusic.com",
+          "description": "British controllers with clean design",
+          "tags": [
+            "product",
+            "audio",
+            "british",
+            "controllers"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Ableton",
+          "url": "https://ableton.com",
+          "description": "Berlin production software with editorial design",
+          "tags": [
+            "software",
+            "audio",
+            "german",
+            "production"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Native Instruments",
+          "url": "https://native-instruments.com",
+          "description": "Berlin software with bold design",
+          "tags": [
+            "software",
+            "audio",
+            "german",
+            "instruments"
+          ]
+        },
+        {
+          "name": "Arturia",
+          "url": "https://arturia.com",
+          "description": "French synths with colorful design",
+          "tags": [
+            "product",
+            "audio",
+            "french",
+            "synths"
+          ]
+        },
+        {
+          "name": "Moog",
+          "url": "https://moogmusic.com",
+          "description": "American synthesis with heritage design",
+          "tags": [
+            "product",
+            "audio",
+            "american",
+            "heritage"
+          ]
+        },
+        {
+          "name": "Universal Audio",
+          "url": "https://uaudio.com",
+          "description": "Analog emulation with professional design",
+          "tags": [
+            "product",
+            "audio",
+            "american",
+            "professional"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "FabFilter",
+          "url": "https://fabfilter.com",
+          "description": "Dutch plugins with distinctive design",
+          "tags": [
+            "software",
+            "audio",
+            "dutch",
+            "plugins"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "XL Recordings",
+          "url": "https://xlrecordings.com",
+          "description": "Independent record label",
+          "tags": [
+            "music",
+            "label",
+            "london"
+          ]
+        },
+        {
+          "name": "Sub Pop",
+          "url": "https://subpop.com",
+          "description": "Seattle grunge label",
+          "tags": [
+            "music",
+            "label",
+            "seattle"
+          ]
+        },
+        {
+          "name": "Merge Records",
+          "url": "https://mergerecords.com",
+          "description": "North Carolina indie label",
+          "tags": [
+            "music",
+            "label",
+            "north carolina"
+          ]
+        },
+        {
+          "name": "Domino Recording Co",
+          "url": "https://dominorecordco.com",
+          "description": "UK indie label",
+          "tags": [
+            "music",
+            "label",
+            "london"
+          ]
+        },
+        {
+          "name": "Warp Records",
+          "url": "https://warp.net",
+          "description": "Electronic music label",
+          "tags": [
+            "music",
+            "label",
+            "sheffield"
+          ]
+        },
+        {
+          "name": "Brainfeeder",
+          "url": "https://brainfeedersite.com",
+          "description": "Flying Lotus label",
+          "tags": [
+            "music",
+            "label",
+            "los angeles"
+          ]
+        },
+        {
+          "name": "Stones Throw",
+          "url": "https://stonesthrow.com",
+          "description": "Hip-hop label",
+          "tags": [
+            "music",
+            "label",
+            "los angeles"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech_product",
+      "name": "Tech / Product (With Design Soul)",
+      "description": "Technology brands where product is hero and every interaction feels considered and editorial",
+      "filters": [
+        "Product as hero (3D or photography)",
+        "Specs presented as editorial features",
+        "'Story' or 'Philosophy' section before product",
+        "Minimal navigation (3-5 items max)",
+        "Scroll-triggered product reveals",
+        "Colorway selection as interactive moment",
+        "Support/documentation with same aesthetic",
+        "No stock photography, ever"
+      ],
+      "sources": [
+        {
+          "name": "Sonos",
+          "url": "https://sonos.com",
+          "description": "Sound as lifestyle editorial",
+          "tags": [
+            "tech",
+            "audio",
+            "american",
+            "lifestyle"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Bang & Olufsen",
+          "url": "https://bang-olufsen.com",
+          "description": "Danish luxury audio with editorial design",
+          "tags": [
+            "tech",
+            "audio",
+            "danish",
+            "luxury"
+          ]
+        },
+        {
+          "name": "Devialet",
+          "url": "https://devialet.com",
+          "description": "French audio engineering with bold design",
+          "tags": [
+            "tech",
+            "audio",
+            "french",
+            "engineering"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Master & Dynamic",
+          "url": "https://masterdynamic.com",
+          "description": "NYC audio luxury with editorial presentation",
+          "tags": [
+            "tech",
+            "audio",
+            "american",
+            "luxury"
+          ]
+        },
+        {
+          "name": "AIAIAI",
+          "url": "https://aiaiai.dk",
+          "description": "Danish modular audio with clean design",
+          "tags": [
+            "tech",
+            "audio",
+            "danish",
+            "modular"
+          ]
+        },
+        {
+          "name": "Nothing",
+          "url": "https://nothing.tech",
+          "description": "London tech with transparent design",
+          "tags": [
+            "tech",
+            "product",
+            "british",
+            "transparent"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Rabbit",
+          "url": "https://rabbit.tech",
+          "description": "AI hardware with editorial launch",
+          "tags": [
+            "tech",
+            "ai",
+            "american",
+            "hardware"
+          ]
+        },
+        {
+          "name": "Fairphone",
+          "url": "https://fairphone.com",
+          "description": "Ethical smartphone with honest design",
+          "tags": [
+            "tech",
+            "smartphone",
+            "dutch",
+            "ethical"
+          ]
+        },
+        {
+          "name": "Punkt",
+          "url": "https://punkt.ch",
+          "description": "Minimal phones with Swiss design",
+          "tags": [
+            "tech",
+            "phone",
+            "swiss",
+            "minimal"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Light Phone",
+          "url": "https://thelightphone.com",
+          "description": "Minimal phone with calm design",
+          "tags": [
+            "tech",
+            "phone",
+            "american",
+            "calm"
+          ]
+        },
+        {
+          "name": "Dyson",
+          "url": "https://dyson.com",
+          "description": "British engineering with technical design",
+          "tags": [
+            "tech",
+            "appliances",
+            "british",
+            "engineering"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Leica",
+          "url": "https://leica-camera.com/en-US",
+          "description": "German cameras with iconic design",
+          "tags": [
+            "tech",
+            "cameras",
+            "german",
+            "iconic"
+          ]
+        },
+        {
+          "name": "Hasselblad",
+          "url": "https://hasselblad.com",
+          "description": "Swedish medium format with space heritage",
+          "tags": [
+            "tech",
+            "cameras",
+            "swedish",
+            "medium format"
+          ]
+        },
+        {
+          "name": "Ricoh GR",
+          "url": "https://ricoh-imaging.co.jp",
+          "description": "Japanese compact with street photography focus",
+          "tags": [
+            "tech",
+            "cameras",
+            "japanese",
+            "street"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Rode",
+          "url": "https://rode.com",
+          "description": "Australian microphones with clean design",
+          "tags": [
+            "tech",
+            "audio",
+            "australian",
+            "microphones"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Sennheiser",
+          "url": "https://sennheiser.com",
+          "description": "German audio with professional design",
+          "tags": [
+            "tech",
+            "audio",
+            "german",
+            "professional"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Audeze",
+          "url": "https://audeze.com",
+          "description": "American planar magnetic with premium design",
+          "tags": [
+            "tech",
+            "audio",
+            "american",
+            "premium"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Focal",
+          "url": "https://focal.com",
+          "description": "French audio with luxury design",
+          "tags": [
+            "tech",
+            "audio",
+            "french",
+            "luxury"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "HiFiMAN",
+          "url": "https://hifiman.com",
+          "description": "Chinese planar magnetic with technical design",
+          "tags": [
+            "tech",
+            "audio",
+            "chinese",
+            "planar"
+          ]
+        },
+        {
+          "name": "Dan Clark Audio",
+          "url": "https://danclarkaudio.com",
+          "description": "American planar magnetic with minimalist design",
+          "tags": [
+            "tech",
+            "audio",
+            "american",
+            "minimalist"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Meze Audio",
+          "url": "https://mezeaudio.com",
+          "description": "Romanian headphones with wooden design",
+          "tags": [
+            "tech",
+            "audio",
+            "romanian",
+            "wood"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Grado Labs",
+          "url": "https://gradolabs.com",
+          "description": "American headphones with Brooklyn heritage",
+          "tags": [
+            "tech",
+            "audio",
+            "american",
+            "brooklyn"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Abyss",
+          "url": "https://abyss-headphones.com",
+          "description": "American planar magnetic with extreme design",
+          "tags": [
+            "tech",
+            "audio",
+            "american",
+            "extreme"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Stax",
+          "url": "https://stax.co.jp",
+          "description": "Japanese electrostatic with legacy design",
+          "tags": [
+            "tech",
+            "audio",
+            "japanese",
+            "electrostatic"
+          ]
+        },
+        {
+          "name": "Koss",
+          "url": "https://koss.com",
+          "description": "American headphones with retro design",
+          "tags": [
+            "tech",
+            "audio",
+            "american",
+            "retro"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Beyerdynamic",
+          "url": "https://beyerdynamic.de",
+          "description": "German audio with professional heritage",
+          "tags": [
+            "tech",
+            "audio",
+            "german",
+            "professional"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Neumann",
+          "url": "https://neumann.com",
+          "description": "German microphones with studio legend",
+          "tags": [
+            "tech",
+            "audio",
+            "german",
+            "studio"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Telefunken",
+          "url": "https://telefunken-elektroakustik.com",
+          "description": "American microphones with vintage design",
+          "tags": [
+            "tech",
+            "audio",
+            "american",
+            "vintage"
+          ]
+        },
+        {
+          "name": "Apogee",
+          "url": "https://apogeedigital.com",
+          "description": "American digital conversion with premium design",
+          "tags": [
+            "tech",
+            "audio",
+            "american",
+            "premium"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "RME",
+          "url": "https://rme-audio.de",
+          "description": "German interfaces with technical design",
+          "tags": [
+            "tech",
+            "audio",
+            "german",
+            "technical"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Antelope Audio",
+          "url": "https://antelopeaudio.com",
+          "description": "Bulgarian interfaces with premium design",
+          "tags": [
+            "tech",
+            "audio",
+            "bulgarian",
+            "premium"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "SSL",
+          "url": "https://solidstatelogic.com",
+          "description": "British consoles with legendary design",
+          "tags": [
+            "tech",
+            "audio",
+            "british",
+            "legendary"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Neve",
+          "url": "https://ams-neve.com",
+          "description": "British preamps with studio heritage",
+          "tags": [
+            "tech",
+            "audio",
+            "british",
+            "studio"
+          ]
+        },
+        {
+          "name": "API",
+          "url": "https://apiaudio.com",
+          "description": "American consoles with punchy design",
+          "tags": [
+            "tech",
+            "audio",
+            "american",
+            "punchy"
+          ]
+        },
+        {
+          "name": "Warm Audio",
+          "url": "https://warmaudio.com",
+          "description": "American affordable analog with vintage design",
+          "tags": [
+            "tech",
+            "audio",
+            "american",
+            "vintage"
+          ]
+        },
+        {
+          "name": "Golden Age Project",
+          "url": "https://goldenageproject.com",
+          "description": "Swedish affordable analog with clean design",
+          "tags": [
+            "tech",
+            "audio",
+            "swedish",
+            "analog"
+          ]
+        },
+        {
+          "name": "Squarespace",
+          "url": "https://squarespace.com",
+          "description": "Website builder",
+          "tags": [
+            "tech",
+            "website",
+            "builder"
+          ]
+        },
+        {
+          "name": "Gumroad",
+          "url": "https://gumroad.com",
+          "description": "Creator commerce",
+          "tags": [
+            "tech",
+            "commerce",
+            "creators"
+          ]
+        },
+        {
+          "name": "Patreon",
+          "url": "https://patreon.com",
+          "description": "Creator membership",
+          "tags": [
+            "tech",
+            "membership",
+            "creators"
+          ]
+        },
+        {
+          "name": "Prismic",
+          "url": "https://prismic.io",
+          "description": "Headless CMS",
+          "tags": [
+            "tech",
+            "cms",
+            "headless"
+          ]
+        },
+        {
+          "name": "Netlify",
+          "url": "https://netlify.com",
+          "description": "Web hosting platform",
+          "tags": [
+            "tech",
+            "hosting",
+            "jamstack"
+          ]
+        },
+        {
+          "name": "GitLab",
+          "url": "https://gitlab.com",
+          "description": "DevOps platform",
+          "tags": [
+            "tech",
+            "developer",
+            "devops"
+          ]
+        },
+        {
+          "name": "Loom",
+          "url": "https://loom.com",
+          "description": "Video messaging",
+          "tags": [
+            "tech",
+            "video",
+            "communication"
+          ]
+        },
+        {
+          "name": "Coda",
+          "url": "https://coda.io",
+          "description": "All-in-one doc",
+          "tags": [
+            "tech",
+            "productivity",
+            "documents"
+          ]
+        }
+      ]
+    }
+  ],
+  "universal_filters": {
+    "description": "Filters that apply across all buckets for the Apartamento × SSENSE × A24 aesthetic",
+    "filters": [
+      "No pop-ups or cookie banners that break immersion",
+      "Custom typography (no system fonts)",
+      "Film photography preferred over digital",
+      "Negative space treated as active design element",
+      "Loading states designed, not default browser",
+      "Mobile experience reimagined, not just responsive"
+    ]
+  },
+  "venn_diagram": {
+    "description": "How to combine buckets to achieve specific energies",
+    "combinations": [
+      {
+        "name": "Apartamento Energy",
+        "buckets": [
+          "typography_first",
+          "independent_publishing",
+          "design_architecture"
+        ],
+        "description": "Warm minimalism, everyday beauty, editorial restraint"
+      },
+      {
+        "name": "SSENSE Energy",
+        "buckets": [
+          "atmospheric_cinematic",
+          "luxury_fashion_ecommerce",
+          "tech_product"
+        ],
+        "description": "Dark luxury, avant-garde commerce, product as editorial"
+      },
+      {
+        "name": "A24 Energy",
+        "buckets": [
+          "atmospheric_cinematic",
+          "art_culture_institutions",
+          "creative_studios"
+        ],
+        "description": "Cinematic immersion, mood over information, world-building"
+      }
+    ]
+  }
+}
