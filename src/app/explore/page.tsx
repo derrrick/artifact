@@ -437,8 +437,10 @@ function ExploreContent() {
   const hasPrev = historyStack.current.length > 0;
 
   return (
-    <div className="h-dvh w-full max-w-full flex flex-col overflow-hidden">
-      <Nav />
+    <div className="w-full max-w-full flex flex-col overflow-hidden" style={{ height: "100svh" }}>
+      <div className="hidden md:block">
+        <Nav />
+      </div>
 
       {/* Site header bar */}
       <div className="relative hidden md:flex items-center justify-between px-4 md:px-[60px] py-2 md:py-3">
@@ -480,7 +482,7 @@ function ExploreContent() {
       </div>
 
       {/* Iframe container */}
-      <div className="flex-1 min-h-0 mx-0 md:mx-[60px] mb-[44px] md:mb-0 relative overflow-hidden border-0 md:border md:border-[#2a2a2a]">
+      <div className="flex-1 min-h-0 mx-0 md:mx-[60px] pb-[48px] md:pb-0 md:mb-0 relative overflow-hidden border-0 md:border md:border-[#2a2a2a]">
         <div ref={iframeWrapRef} className="absolute inset-0" style={{ opacity: 0 }}>
           <iframe
             key={iframeSrc}
@@ -585,8 +587,8 @@ function ExploreContent() {
 
       {/* Bottom nav */}
       <div
-        className="fixed left-0 right-0 z-40 md:relative md:bottom-auto md:z-auto flex flex-col items-center justify-center px-4 md:px-[60px] gap-2 md:gap-3 h-[44px] md:h-[140px] shrink-0"
-        style={{ background: "var(--bg)", bottom: "env(safe-area-inset-bottom, 0px)" }}
+        className="fixed left-0 right-0 z-40 bottom-0 md:relative md:bottom-auto md:z-auto flex items-center justify-center px-4 md:px-[60px] gap-2 md:gap-3 h-[48px] md:h-[140px] shrink-0 md:flex-col"
+        style={{ background: "var(--bg)" }}
       >
         <div className="hidden md:block w-full h-px" style={{ background: "var(--border-subtle)" }} />
 
