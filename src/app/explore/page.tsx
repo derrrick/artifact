@@ -149,6 +149,24 @@ function ExploreContent() {
   const curtainTopRef = useRef<HTMLDivElement>(null);
   const curtainBotRef = useRef<HTMLDivElement>(null);
   const pendingNav = useRef<typeof allSites[0] | null>(null);
+  const shellRef = useRef<HTMLDivElement>(null);
+
+  // Sync actual visible viewport height (fixes Chrome iOS toolbar overlap)
+  useEffect(() => {
+    function updateHeight() {
+      const h = window.visualViewport?.height ?? window.innerHeight;
+      if (shellRef.current) {
+        shellRef.current.style.height = `${h}px`;
+      }
+    }
+    updateHeight();
+    window.visualViewport?.addEventListener("resize", updateHeight);
+    window.addEventListener("resize", updateHeight);
+    return () => {
+      window.visualViewport?.removeEventListener("resize", updateHeight);
+      window.removeEventListener("resize", updateHeight);
+    };
+  }, []);
 
   // Build pool from multi-select filters
   const pool = useMemo(() => {
@@ -437,7 +455,7 @@ function ExploreContent() {
   const hasPrev = historyStack.current.length > 0;
 
   return (
-    <div className="h-screen w-full flex flex-col overflow-hidden">
+    <div ref={shellRef} className="w-full flex flex-col overflow-hidden" style={{ height: "100vh" }}>
       <Nav />
 
       {/* Site header bar */}
@@ -585,7 +603,7 @@ function ExploreContent() {
 
       {/* Bottom nav */}
       <div
-        className="flex flex-col items-center justify-center px-4 md:px-[60px] gap-0 md:gap-3 shrink-0"
+        className="flex flex-col items-center justify-center px-4 md:px-[60px] gap-0 md:gap-3 shrink-0 md:pt-[24px] md:pb-[40px]"
       >
         <div className="w-full h-px" style={{ background: "var(--border-subtle)" }} />
 
@@ -647,10 +665,10 @@ function ExploreContent() {
               )}
             </button>
           </div>
-          <button onClick={() => navigateTo(nextSite)} className="flex items-center justify-end gap-3 w-[240px] group cursor-pointer">
+          <button onClick={() => navigateTo(nextSite)} className="flex items-center justify-end gap-3 w-[240px] group cursor-pointer text-right">
             <div className="flex flex-col items-end gap-0.5">
               <span className="text-[9px] tracking-[0.2em] uppercase text-[#E9F055]">Next</span>
-              <span className="font-[family-name:var(--font-unbounded)] text-base uppercase transition-colors group-hover:text-white line-clamp-2" style={{ color: "var(--text-muted)" }}>{nextSite.name}</span>
+              <span className="font-[family-name:var(--font-unbounded)] text-base uppercase transition-colors group-hover:text-white text-right line-clamp-2" style={{ color: "var(--text-muted)" }}>{nextSite.name}</span>
             </div>
             <span className="text-base transition-colors group-hover:text-white text-[#E9F055]">→</span>
           </button>
