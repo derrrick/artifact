@@ -480,7 +480,7 @@ function ExploreContent() {
       </div>
 
       {/* Iframe container */}
-      <div className="flex-1 min-h-0 mx-0 md:mx-[60px] mb-[80px] md:mb-0 relative overflow-hidden border-0 md:border md:border-[#2a2a2a]">
+      <div className="flex-1 min-h-0 mx-0 md:mx-[60px] mb-[56px] md:mb-0 relative overflow-hidden border-0 md:border md:border-[#2a2a2a]">
         <div ref={iframeWrapRef} className="absolute inset-0" style={{ opacity: 0 }}>
           <iframe
             key={iframeSrc}
@@ -584,11 +584,14 @@ function ExploreContent() {
       </div>
 
       {/* Bottom nav */}
-      <div className="fixed bottom-0 left-0 right-0 z-40 md:relative md:z-auto flex flex-col items-center justify-center px-4 md:px-[60px] gap-2 md:gap-3 h-[80px] md:h-[140px] shrink-0 pb-[env(safe-area-inset-bottom)]" style={{ background: "var(--bg)" }}>
+      <div
+        className="fixed left-0 right-0 z-40 md:relative md:bottom-auto md:z-auto flex flex-col items-center justify-center px-4 md:px-[60px] gap-2 md:gap-3 h-[56px] md:h-[140px] shrink-0"
+        style={{ background: "var(--bg)", bottom: "env(safe-area-inset-bottom, 0px)" }}
+      >
         <div className="hidden md:block w-full h-px" style={{ background: "var(--border-subtle)" }} />
 
         {/* Mobile: compact row */}
-        <div className="flex md:hidden items-center justify-between w-full py-2">
+        <div className="flex md:hidden items-center justify-between w-full">
           <button
             onClick={() => navigateTo(prevSite, true)}
             className="flex items-center gap-2 group cursor-pointer min-h-[44px]"
