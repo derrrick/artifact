@@ -438,27 +438,6 @@ function ExploreContent() {
 
   return (
     <div className="h-screen w-full flex flex-col overflow-hidden">
-      {/* Mobile roadblock */}
-      <div className="flex md:hidden fixed inset-0 z-[9999] flex-col items-center justify-center px-8 text-center" style={{ background: "#0A0A0A" }}>
-        <div className="flex flex-col items-center gap-6">
-          <span className="font-[family-name:var(--font-unbounded)] text-[11px] tracking-[0.4em] uppercase" style={{ color: "#E9F055", opacity: 0.5 }}>Artifact 探求者</span>
-          <h2 className="font-[family-name:var(--font-unbounded)] text-[24px] font-bold uppercase leading-[1.1] text-white">
-            This portal demands<br />a wider canvas
-          </h2>
-          <p className="font-[family-name:var(--font-mono)] text-[13px] leading-6 max-w-[280px]" style={{ color: "#737D7F" }}>
-            The explore experience is best consumed on a desktop browser — where every pixel has room to breathe.
-          </p>
-          <div className="w-12 h-px mt-2" style={{ background: "rgba(233,240,85,0.2)" }} />
-          <a
-            href="/"
-            className="font-[family-name:var(--font-mono)] text-[11px] tracking-[0.2em] uppercase transition-colors"
-            style={{ color: "#E9F055" }}
-          >
-            ← Return home
-          </a>
-        </div>
-      </div>
-
       <Nav />
 
       {/* Site header bar */}
@@ -501,7 +480,7 @@ function ExploreContent() {
       </div>
 
       {/* Iframe container */}
-      <div className="flex-1 min-h-0 mx-[60px] relative overflow-hidden border border-[#2a2a2a]">
+      <div className="flex-1 min-h-0 mx-2 md:mx-[60px] relative overflow-hidden border border-[#2a2a2a]">
         <div ref={iframeWrapRef} className="absolute inset-0" style={{ opacity: 0 }}>
           <iframe
             key={iframeSrc}
@@ -606,23 +585,23 @@ function ExploreContent() {
 
       {/* Bottom nav */}
       <div
-        className="flex flex-col items-center justify-center px-[60px] gap-3 h-[140px] shrink-0"
+        className="flex flex-col items-center justify-center px-4 md:px-[60px] gap-0 md:gap-3 shrink-0"
       >
-        <div className="hidden md:block w-full h-px" style={{ background: "var(--border-subtle)" }} />
+        <div className="w-full h-px" style={{ background: "var(--border-subtle)" }} />
 
         {/* Mobile: compact row */}
-        <div className="flex md:hidden items-center justify-between w-full">
+        <div className="flex md:hidden items-center justify-between w-full py-3">
           <button
             onClick={() => navigateTo(prevSite, true)}
-            className="flex items-center gap-2 group cursor-pointer min-h-[44px]"
+            className="flex items-center gap-2 group cursor-pointer"
           >
-            <span className="text-xl text-[#E9F055]">←</span>
+            <span className="text-lg text-[#E9F055]">←</span>
             <span className="text-[10px] tracking-[0.2em] uppercase text-[#E9F055]">Prev</span>
           </button>
 
           <button
             onClick={() => setShowFilterModal(true)}
-            className="flex items-center gap-1.5 px-4 py-2 text-[10px] font-semibold tracking-[0.15em] uppercase cursor-pointer rounded-full transition-all duration-150 hover:brightness-110 min-h-[40px]"
+            className="flex items-center gap-1.5 px-4 py-1.5 text-[10px] font-semibold tracking-[0.15em] uppercase cursor-pointer rounded-full transition-all duration-150 hover:brightness-110"
             style={{ background: "#E9F055", color: "#0A0A0A" }}
           >
             Filter
@@ -633,9 +612,9 @@ function ExploreContent() {
             )}
           </button>
 
-          <button onClick={() => navigateTo(nextSite)} className="flex items-center gap-2 group cursor-pointer min-h-[40px]">
+          <button onClick={() => navigateTo(nextSite)} className="flex items-center gap-2 group cursor-pointer">
             <span className="text-[10px] tracking-[0.2em] uppercase text-[#E9F055]">Next</span>
-            <span className="text-xl text-[#E9F055]">→</span>
+            <span className="text-lg text-[#E9F055]">→</span>
           </button>
         </div>
 
