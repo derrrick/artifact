@@ -17,7 +17,7 @@ export default function Nav() {
   }
 
   return (
-    <nav className="relative z-50 flex items-center justify-between px-4 md:px-[60px] py-1.5 md:py-7 w-full shrink-0">
+    <nav className="relative z-50 flex items-center justify-between px-4 md:px-[60px] pt-1.5 pb-1 md:pt-7 md:pb-3.5 w-full shrink-0">
       <Link href="/" className="flex items-center gap-2 md:gap-3 group">
         <span className="font-[family-name:var(--font-unbounded)] text-[13px] md:text-[15px] font-bold tracking-[0.2em] uppercase text-white group-hover:text-[var(--canary)] transition-colors">ARTIFACT</span>
         <span className="text-[13px] md:text-[15px] font-light tracking-[0.2em] text-[#FA4D31] group-hover:text-[var(--canary)] transition-colors">探求者</span>

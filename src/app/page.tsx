@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import Nav from "@/components/Nav";
 import { StarIcon, GoldLine } from "@/components/Ornaments";
 import { buckets, bucketLabels, bucketColors, getFilteredSites } from "@/data/sites";
-import { SmokeRing } from "@paper-design/shaders-react";
+import { SmokeRing, Warp } from "@paper-design/shaders-react";
 import gsap from "gsap";
 
 /* ─── Palette constants ─── */
@@ -112,107 +112,20 @@ export default function Home() {
     <div className="min-h-screen flex flex-col relative" style={{ background: "#0A0A0A" }}>
 
       {/* ═══ HERO — Midnight Violet full-bleed ═══ */}
-      <section className="relative min-h-[50vh] md:min-h-screen flex flex-col overflow-hidden" style={{ background: MIDNIGHT }}>
-        {/* SmokeRing dark layer — base (innermost) */}
+      <section className="relative min-h-[50vh] md:min-h-screen flex flex-col overflow-hidden" style={{ background: "#0A0A0A" }}>
         <div className="absolute inset-0 pointer-events-none z-0">
-          <SmokeRing
-            speed={1.82}
-            scale={0.95}
-            thickness={0.12}
-            radius={0.42}
-            innerShape={0}
-            noiseScale={2.85}
-            noiseIterations={2}
-            offsetX={0}
-            offsetY={0}
-            colors={["#200609"]}
-            colorBack="#00000000"
-            style={{ backgroundColor: "transparent", width: "100%", height: "100%", pointerEvents: "none" }}
-          />
-        </div>
-        {/* SmokeRing dark — scaled 155%, rotated 180° (middle) */}
-        <div className="absolute inset-0 pointer-events-none z-0" style={{ transform: "scale(1.55) rotate(180deg)" }}>
-          <SmokeRing
-            speed={1.82}
-            scale={0.95}
-            thickness={0.12}
-            radius={0.42}
-            innerShape={0}
-            noiseScale={2.85}
-            noiseIterations={2}
-            offsetX={0}
-            offsetY={0}
-            colors={["#200609"]}
-            colorBack="#00000000"
-            style={{ backgroundColor: "transparent", width: "100%", height: "100%", pointerEvents: "none" }}
-          />
-        </div>
-        {/* SmokeRing dark — scaled 195%, rotated 90° (outermost) */}
-        <div className="absolute inset-0 pointer-events-none z-0" style={{ transform: "scale(1.95) rotate(90deg)" }}>
-          <SmokeRing
-            speed={1.82}
-            scale={0.95}
-            thickness={0.12}
-            radius={0.42}
-            innerShape={0}
-            noiseScale={2.85}
-            noiseIterations={2}
-            offsetX={0}
-            offsetY={0}
-            colors={["#200609"]}
-            colorBack="#00000000"
-            style={{ backgroundColor: "transparent", width: "100%", height: "100%", pointerEvents: "none" }}
-          />
-        </div>
-        {/* SmokeRing yellow layer — base */}
-        <div className="absolute inset-0 pointer-events-none z-0">
-          <SmokeRing
-            speed={1.82}
-            scale={0.95}
-            thickness={0.0025}
-            radius={0.42}
-            innerShape={0.41}
-            noiseScale={2.85}
-            noiseIterations={2}
-            offsetX={0}
-            offsetY={0}
-            colors={["#E8F054"]}
-            colorBack="#00000000"
-            style={{ backgroundColor: "transparent", width: "100%", height: "100%", pointerEvents: "none" }}
-          />
-        </div>
-        {/* SmokeRing — scaled 155%, rotated 180° */}
-        <div className="absolute inset-0 pointer-events-none z-0" style={{ transform: "scale(1.55) rotate(180deg)" }}>
-          <SmokeRing
-            speed={1.82}
-            scale={0.95}
-            thickness={0.0025}
-            radius={0.42}
-            innerShape={0.41}
-            noiseScale={2.85}
-            noiseIterations={2}
-            offsetX={0}
-            offsetY={0}
-            colors={["#E8F054"]}
-            colorBack="#00000000"
-            style={{ backgroundColor: "transparent", width: "100%", height: "100%", pointerEvents: "none" }}
-          />
-        </div>
-        {/* SmokeRing — scaled 195%, rotated 90° */}
-        <div className="absolute inset-0 pointer-events-none z-0" style={{ transform: "scale(1.95) rotate(90deg)" }}>
-          <SmokeRing
-            speed={1.82}
-            scale={0.95}
-            thickness={0.0025}
-            radius={0.42}
-            innerShape={0.41}
-            noiseScale={2.85}
-            noiseIterations={2}
-            offsetX={0}
-            offsetY={0}
-            colors={["#E8F054"]}
-            colorBack="#00000000"
-            style={{ backgroundColor: "transparent", width: "100%", height: "100%", pointerEvents: "none" }}
+          <Warp
+            speed={2.1}
+            scale={5}
+            softness={0.06}
+            proportion={0.45}
+            swirl={1.67}
+            swirlIterations={2}
+            shape="checks"
+            distortion={0.86}
+            shapeScale={0.2}
+            colors={["#121212", "#121212", "#351F28", "#FA4D31"]}
+            style={{ width: "100%", height: "100%", pointerEvents: "none" }}
           />
         </div>
 
@@ -265,7 +178,7 @@ export default function Home() {
       </section>
 
       {/* ═══ DOMINION LIST — Editorial numbered ═══ */}
-      <section id="themes" className="relative py-14 md:py-32 px-4 md:px-[60px]" style={{ background: "#0A0A0A" }}>
+      <section id="themes" className="relative py-14 md:py-32 px-4 md:px-[60px]" style={{ background: MIDNIGHT }}>
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
