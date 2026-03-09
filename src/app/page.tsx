@@ -1,13 +1,58 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import Nav from "@/components/Nav";
 import { StarIcon, GoldLine } from "@/components/Ornaments";
 import { buckets, bucketLabels, bucketColors, getFilteredSites } from "@/data/sites";
-import { SmokeRing, SimplexNoise } from "@paper-design/shaders-react";
+import { SmokeRing, SimplexNoise, GrainGradient, FlutedGlass } from "@paper-design/shaders-react";
 import gsap from "gsap";
+
+/* ─── Split text with GSAP char-by-char reveal ─── */
+function SplitReveal({ text, className, style, delay = 0 }: { text: string; className?: string; style?: React.CSSProperties; delay?: number }) {
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const el = containerRef.current;
+    const chars = el?.querySelectorAll(".split-char");
+    if (!el || !chars) return;
+
+    gsap.set(chars, { y: "110%", opacity: 0, rotateX: -90 });
+    gsap.set(el, { opacity: 1, delay });
+
+    gsap.to(chars, {
+      y: "0%",
+      opacity: 1,
+      rotateX: 0,
+      duration: 1.0,
+      ease: "power4.out",
+      stagger: 0.035,
+      delay,
+    });
+  }, [delay]);
+
+  const words = text.split(" ");
+
+  return (
+    <div ref={containerRef} className={className} style={{ ...style, perspective: "1000px" }}>
+      {words.map((word, wi) => (
+        <span key={wi} className="inline-block whitespace-nowrap" style={{ overflow: "hidden" }}>
+          {word.split("").map((char, ci) => (
+            <span
+              key={ci}
+              className="split-char inline-block"
+              style={{ transformOrigin: "bottom center", willChange: "transform, opacity" }}
+            >
+              {char}
+            </span>
+          ))}
+          {wi < words.length - 1 && <span className="inline-block">&nbsp;</span>}
+        </span>
+      ))}
+    </div>
+  );
+}
 
 /* ─── Palette constants ─── */
 const MIDNIGHT = "#351F28";
@@ -111,60 +156,85 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col relative" style={{ background: "#0A0A0A" }}>
 
+      {/* SVG filter for distressed text */}
+      <svg className="absolute w-0 h-0" aria-hidden="true">
+        <defs>
+          <filter id="distressed">
+            <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="4" result="noise" />
+            <feDisplacementMap in="SourceGraphic" in2="noise" scale="3" xChannelSelector="R" yChannelSelector="G" />
+          </filter>
+        </defs>
+      </svg>
+
       {/* ═══ HERO — Midnight Violet full-bleed ═══ */}
       <section className="relative min-h-[50vh] md:min-h-screen flex flex-col overflow-hidden" style={{ background: "#0A0A0A" }}>
-        <div className="absolute inset-0 pointer-events-none z-0">
-          <SimplexNoise
-            speed={0.3}
-            scale={6}
-            stepsPerColor={10}
+
+        {/* GrainGradient background */}
+        <div className="absolute inset-0 z-[1] pointer-events-none">
+          <GrainGradient
+            speed={2}
+            scale={1.37}
+            rotation={-51}
+            offsetX={0.49}
+            offsetY={0}
             softness={0}
-            colors={["#F54C31", "#000000", "#351F28", "#000000", "#F54C31"]}
-            style={{ width: "100%", height: "100%", pointerEvents: "none" }}
+            intensity={0.75}
+            noise={0.05}
+            shape="corners"
+            colors={["#E8F05433", "#F54C31", "#00000080", "#000000"]}
+            colorBack="#00000000"
+            style={{ backgroundColor: "#0E0605", width: "100%", height: "100%", pointerEvents: "none" }}
           />
         </div>
+
+        {/* SmokeRing overlay */}
+        <div className="absolute inset-0 z-[2] pointer-events-none" style={{ mixBlendMode: "multiply" }}>
+          <SmokeRing
+            speed={1}
+            scale={1.31}
+            thickness={0.19}
+            radius={0.56}
+            innerShape={1.17}
+            noiseScale={2.85}
+            noiseIterations={2}
+            offsetX={0}
+            offsetY={0}
+            colors={["#000000"]}
+            colorBack="#00000000"
+            style={{ backgroundColor: "transparent", width: "100%", height: "100%", pointerEvents: "none" }}
+          />
+        </div>
+
 
         <div className="relative z-50">
           <Nav />
         </div>
 
-        <div className="relative z-10 flex-1 flex flex-col items-center justify-center px-5 md:px-[60px] lg:px-[76px] mt-[-20px] md:mt-[-180px]">
-          <motion.div
-            initial={{ opacity: 0, y: 40 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.5, duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
-            className="flex flex-col items-center text-center w-full max-w-[1288px]"
-          >
-            {/* Line 1: FEED YOUR */}
-            <h1
-              className="font-[family-name:var(--font-unbounded)] text-[45px] sm:text-[60px] md:text-[100px] lg:text-[180px] font-black uppercase leading-[0.94] tracking-[-0.04em]"
-              style={{ color: "#FBF8F6" }}
-            >
-              Feed Your
-            </h1>
-
-            {/* Line 2: AESTHETIC */}
-            <span
-              className="font-[family-name:var(--font-unbounded)] text-[45px] sm:text-[60px] md:text-[100px] lg:text-[180px] font-black uppercase leading-[0.98] tracking-[-0.04em]"
-              style={{ color: CANARY }}
-            >
-              Aesthetic
-            </span>
-
-            {/* Line 3: ADDICTION */}
-            <span
-              className="font-[family-name:var(--font-unbounded)] text-[45px] sm:text-[60px] md:text-[100px] lg:text-[180px] font-black uppercase leading-[0.98] tracking-[-0.04em]"
-              style={{ color: "#FBF8F6" }}
-            >
-              Addiction
-            </span>
+        <div className="relative z-20 flex-1 flex flex-col items-center justify-center px-5 md:px-[60px] lg:px-[76px] mt-[-20px] md:mt-[-180px]">
+          <div className="flex flex-col items-center text-center w-full max-w-[1288px]">
+            <SplitReveal
+              text="Get"
+              delay={0.6}
+              className="font-[family-name:var(--font-unbounded)] text-[41px] sm:text-[54px] md:text-[91px] lg:text-[163px] font-black uppercase leading-[0.94] tracking-[-0.03em] text-white opacity-0"
+              style={{ filter: "url(#distressed)" }}
+            />
+            <SplitReveal
+              text="Inspired"
+              delay={1.0}
+              className="font-[family-name:var(--font-unbounded)] text-[41px] sm:text-[54px] md:text-[91px] lg:text-[163px] font-black uppercase leading-[0.98] tracking-[-0.03em] text-white opacity-0"
+              style={{ filter: "url(#distressed)" }}
+            />
 
             {/* Explore pill — centered below */}
-            <div className="flex justify-center w-full mt-6 md:mt-12">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 1.8, duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
+              className="flex justify-center w-full mt-6 md:mt-12"
+            >
               <ExplorePill onClick={handleSeek} />
-            </div>
-
-          </motion.div>
+            </motion.div>
+          </div>
         </div>
 
         {/* Themes anchor — pinned near bottom */}

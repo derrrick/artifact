@@ -19,8 +19,8 @@ export default function Nav() {
   return (
     <nav className="relative z-50 flex items-center justify-between px-4 md:px-[60px] pt-1.5 pb-1 md:pt-7 md:pb-3.5 w-full shrink-0">
       <Link href="/" className="flex items-center gap-2 md:gap-3 group">
-        <span className="font-[family-name:var(--font-unbounded)] text-[13px] md:text-[15px] font-bold tracking-[0.2em] uppercase text-white group-hover:text-[var(--canary)] transition-colors">ARTIFACT</span>
-        <span className="text-[13px] md:text-[15px] font-light tracking-[0.2em] text-[#FA4D31] group-hover:text-[var(--canary)] transition-colors">探求者</span>
+        <span className="font-[family-name:var(--font-unbounded)] text-[13px] md:text-[15px] font-bold tracking-[0.2em] uppercase transition-colors text-white group-hover:text-[var(--canary)]">ARTIFACT</span>
+        <span className="text-[13px] md:text-[15px] font-light tracking-[0.2em] transition-colors text-[#FA4D31] group-hover:text-[var(--canary)]">探求者</span>
       </Link>
       <div className="flex items-center gap-5 md:gap-10">
         <button
@@ -34,8 +34,11 @@ export default function Nav() {
         </button>
         <Link
           href="/explore"
-          className="flex items-center gap-2 px-4 py-1.5 md:px-5 md:py-2 font-[family-name:var(--font-mono)] text-[10px] md:text-[11px] font-semibold tracking-[0.2em] uppercase transition-all hover:bg-[rgba(250,77,49,0.1)] rounded-full"
-          style={{ border: "1px solid var(--terracotta)", color: "var(--terracotta)" }}
+          className="flex items-center gap-2 px-4 py-1.5 md:px-5 md:py-2 font-[family-name:var(--font-mono)] text-[10px] md:text-[11px] font-semibold tracking-[0.2em] uppercase transition-all rounded-full"
+          style={{
+            border: "1px solid var(--terracotta)",
+            color: "var(--terracotta)",
+          }}
         >
           Explore
         </Link>
