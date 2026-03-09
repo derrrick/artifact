@@ -437,13 +437,32 @@ function ExploreContent() {
   const hasPrev = historyStack.current.length > 0;
 
   return (
-    <div className="w-full max-w-full flex flex-col overflow-hidden" style={{ height: "100svh" }}>
-      <div className="hidden md:block">
-        <Nav />
+    <div className="h-screen w-full flex flex-col overflow-hidden">
+      {/* Mobile roadblock */}
+      <div className="flex md:hidden fixed inset-0 z-[9999] flex-col items-center justify-center px-8 text-center" style={{ background: "#0A0A0A" }}>
+        <div className="flex flex-col items-center gap-6">
+          <span className="font-[family-name:var(--font-unbounded)] text-[11px] tracking-[0.4em] uppercase" style={{ color: "#E9F055", opacity: 0.5 }}>Artifact 探求者</span>
+          <h2 className="font-[family-name:var(--font-unbounded)] text-[24px] font-bold uppercase leading-[1.1] text-white">
+            This portal demands<br />a wider canvas
+          </h2>
+          <p className="font-[family-name:var(--font-mono)] text-[13px] leading-6 max-w-[280px]" style={{ color: "#737D7F" }}>
+            The explore experience is best consumed on a desktop browser — where every pixel has room to breathe.
+          </p>
+          <div className="w-12 h-px mt-2" style={{ background: "rgba(233,240,85,0.2)" }} />
+          <a
+            href="/"
+            className="font-[family-name:var(--font-mono)] text-[11px] tracking-[0.2em] uppercase transition-colors"
+            style={{ color: "#E9F055" }}
+          >
+            ← Return home
+          </a>
+        </div>
       </div>
 
+      <Nav />
+
       {/* Site header bar */}
-      <div className="relative hidden md:flex items-center justify-between px-4 md:px-[60px] py-2 md:py-3">
+      <div className="relative flex items-center justify-between px-4 md:px-[60px] py-2 md:py-3">
         <div className="hidden md:flex items-center gap-3">
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 rounded-sm" style={{ background: bucketColor }} />
@@ -482,7 +501,7 @@ function ExploreContent() {
       </div>
 
       {/* Iframe container */}
-      <div className="flex-1 min-h-0 mx-0 md:mx-[60px] pb-[48px] md:pb-0 md:mb-0 relative overflow-hidden border-0 md:border md:border-[#2a2a2a]">
+      <div className="flex-1 min-h-0 mx-[60px] relative overflow-hidden border border-[#2a2a2a]">
         <div ref={iframeWrapRef} className="absolute inset-0" style={{ opacity: 0 }}>
           <iframe
             key={iframeSrc}
@@ -587,8 +606,7 @@ function ExploreContent() {
 
       {/* Bottom nav */}
       <div
-        className="fixed left-0 right-0 z-40 bottom-0 md:relative md:bottom-auto md:z-auto flex items-center justify-center px-4 md:px-[60px] gap-2 md:gap-3 h-[48px] md:h-[140px] shrink-0 md:flex-col"
-        style={{ background: "var(--bg)" }}
+        className="flex flex-col items-center justify-center px-[60px] gap-3 h-[140px] shrink-0"
       >
         <div className="hidden md:block w-full h-px" style={{ background: "var(--border-subtle)" }} />
 
