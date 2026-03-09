@@ -5,7 +5,7 @@
     "description": "A curated collection of 500+ websites embodying editorial restraint, typographic excellence, and atmospheric design",
     "created": "2025-01-09",
     "version": "1.0",
-    "total_sources": 427,
+    "total_sources": 413,
     "total_buckets": 10
   },
   "buckets": [
@@ -65,401 +65,6 @@
             "criticism",
             "editorial"
           ]
-        },
-        {
-          "name": "It's Nice That",
-          "url": "https://itsnicethat.com",
-          "description": "Creative industry editorial platform",
-          "tags": [
-            "creative industry",
-            "editorial",
-            "inspiration"
-          ]
-        },
-        {
-          "name": "Creative Review",
-          "url": "https://creativereview.co.uk",
-          "description": "British design culture magazine",
-          "tags": [
-            "design magazine",
-            "british",
-            "culture"
-          ],
-          "iframeBlocked": true
-        },
-        {
-          "name": "ArchDaily",
-          "url": "https://archdaily.com",
-          "description": "Architecture news and projects database",
-          "tags": [
-            "architecture",
-            "database",
-            "projects"
-          ]
-        },
-        {
-          "name": "Sight Unseen",
-          "url": "https://sightunseen.com",
-          "description": "Design and craft editorial by Jill Singer and Monica Khemsurov",
-          "tags": [
-            "design",
-            "craft",
-            "editorial"
-          ]
-        },
-        {
-          "name": "Colossal",
-          "url": "https://thisiscolossal.com",
-          "description": "Art and design blog",
-          "tags": [
-            "art",
-            "design",
-            "blog"
-          ],
-          "iframeBlocked": true
-        },
-        {
-          "name": "The Design Files",
-          "url": "https://thedesignfiles.net",
-          "description": "Australian interiors editorial",
-          "tags": [
-            "interiors",
-            "australian",
-            "editorial"
-          ]
-        },
-        {
-          "name": "Remodelista",
-          "url": "https://remodelista.com",
-          "description": "Quiet design, sparse layout by Julie Carlson",
-          "tags": [
-            "interiors",
-            "minimal",
-            "renovation"
-          ]
-        },
-        {
-          "name": "Apartment Therapy",
-          "url": "https://apartmenttherapy.com",
-          "description": "Accessible home culture by Maxwell Ryan",
-          "tags": [
-            "home",
-            "culture",
-            "accessible"
-          ],
-          "iframeBlocked": true
-        },
-        {
-          "name": "Wallpaper*",
-          "url": "https://wallpaper.com",
-          "description": "Design and lifestyle authority",
-          "tags": [
-            "design",
-            "lifestyle",
-            "luxury"
-          ],
-          "iframeBlocked": true
-        },
-        {
-          "name": "Monocle",
-          "url": "https://monocle.com",
-          "description": "Global affairs and design by Tyler Brûlé",
-          "tags": [
-            "global affairs",
-            "design",
-            "editorial"
-          ],
-          "iframeBlocked": true
-        },
-        {
-          "name": "Kinfolk",
-          "url": "https://kinfolk.com",
-          "description": "Slow living aesthetic magazine",
-          "tags": [
-            "slow living",
-            "lifestyle",
-            "editorial"
-          ]
-        },
-        {
-          "name": "Cereal Magazine",
-          "url": "https://readcereal.com",
-          "description": "Minimal lifestyle editorial",
-          "tags": [
-            "lifestyle",
-            "minimal",
-            "editorial"
-          ]
-        },
-        {
-          "name": "Frankie Magazine",
-          "url": "https://frankie.com.au",
-          "description": "Australian indie culture magazine",
-          "tags": [
-            "australian",
-            "indie",
-            "culture"
-          ],
-          "iframeBlocked": true
-        },
-        {
-          "name": "Oh Comely",
-          "url": "https://ohcomely.co.uk",
-          "description": "British indie editorial magazine",
-          "tags": [
-            "british",
-            "indie",
-            "editorial"
-          ]
-        },
-        {
-          "name": "The Gentlewoman",
-          "url": "https://thegentlewoman.co.uk",
-          "description": "Grown-up fashion with clean editorial design",
-          "tags": [
-            "fashion",
-            "editorial",
-            "women"
-          ]
-        },
-        {
-          "name": "System Magazine",
-          "url": "https://system-magazine.com",
-          "description": "Long-form fashion journalism",
-          "tags": [
-            "fashion",
-            "journalism",
-            "long-form"
-          ]
-        },
-        {
-          "name": "Self Service",
-          "url": "https://selfservicemagazine.com",
-          "description": "Ezra Petronio's fashion art direction",
-          "tags": [
-            "fashion",
-            "art direction",
-            "editorial"
-          ]
-        },
-        {
-          "name": "Purple Magazine",
-          "url": "https://purple.fr",
-          "description": "Olivier Zahm's Parisian cool",
-          "tags": [
-            "fashion",
-            "parisian",
-            "culture"
-          ]
-        },
-        {
-          "name": "Document Journal",
-          "url": "https://documentjournal.com",
-          "description": "Nick Vogelson's luxury journalism",
-          "tags": [
-            "luxury",
-            "journalism",
-            "fashion"
-          ]
-        },
-        {
-          "name": "Interview Magazine",
-          "url": "https://interviewmagazine.com",
-          "description": "Andy Warhol's legacy publication",
-          "tags": [
-            "fashion",
-            "celebrity",
-            "culture"
-          ]
-        },
-        {
-          "name": "W Magazine",
-          "url": "https://wmagazine.com",
-          "description": "Hollywood fashion by Sara Moonves",
-          "tags": [
-            "fashion",
-            "hollywood",
-            "celebrity"
-          ],
-          "iframeBlocked": true
-        },
-        {
-          "name": "V Magazine",
-          "url": "https://vmagazine.com",
-          "description": "Stephen Gan's bold fashion editorial",
-          "tags": [
-            "fashion",
-            "bold",
-            "editorial"
-          ]
-        },
-        {
-          "name": "CR Fashion Book",
-          "url": "https://crfashionbook.com",
-          "description": "Carine Roitfeld's fantasy fashion",
-          "tags": [
-            "fashion",
-            "fantasy",
-            "editorial"
-          ]
-        },
-        {
-          "name": "10 Magazine",
-          "url": "https://10magazine.com",
-          "description": "Sophia Neophitou's luxury fashion",
-          "tags": [
-            "fashion",
-            "luxury",
-            "editorial"
-          ]
-        },
-        {
-          "name": "Wonderland",
-          "url": "https://wonderlandmagazine.com",
-          "description": "Youth culture by Toni-Blaze Ibekwe",
-          "tags": [
-            "youth culture",
-            "fashion",
-            "editorial"
-          ]
-        },
-        {
-          "name": "Rollacoaster",
-          "url": "https://rollacoaster.tv",
-          "description": "UK youth culture by Louise Gannon",
-          "tags": [
-            "youth culture",
-            "uk",
-            "editorial"
-          ],
-          "iframeBlocked": true
-        },
-        {
-          "name": "Flaunt Magazine",
-          "url": "https://flaunt.com",
-          "description": "LA fashion culture by Luis Barajas",
-          "tags": [
-            "fashion",
-            "la",
-            "culture"
-          ],
-          "iframeBlocked": true
-        },
-        {
-          "name": "Nylon",
-          "url": "https://nylon.com",
-          "description": "Pop culture fashion by Michelle Lee",
-          "tags": [
-            "fashion",
-            "pop culture",
-            "youth"
-          ],
-          "iframeBlocked": true
-        },
-        {
-          "name": "Paper Magazine",
-          "url": "https://papermag.com",
-          "description": "Downtown culture by Kim Hastreiter",
-          "tags": [
-            "culture",
-            "downtown",
-            "fashion"
-          ],
-          "iframeBlocked": true
-        },
-        {
-          "name": "Office Magazine",
-          "url": "https://officemagazine.net",
-          "description": "NYC culture by Simon Rasmussen",
-          "tags": [
-            "culture",
-            "nyc",
-            "editorial"
-          ]
-        },
-        {
-          "name": "King Kong Magazine",
-          "url": "https://kingkongmagazine.com",
-          "description": "Art fashion by Paulina Pikulinski",
-          "tags": [
-            "fashion",
-            "art",
-            "editorial"
-          ]
-        },
-        {
-          "name": "Buffalo Zine",
-          "url": "https://buffalozine.com",
-          "description": "Spanish fashion by Adrián González-Cohen",
-          "tags": [
-            "fashion",
-            "spanish",
-            "editorial"
-          ],
-          "iframeBlocked": true
-        },
-        {
-          "name": "Fucking Young!",
-          "url": "https://fuckingyoung.es",
-          "description": "Youth fashion culture with bold design",
-          "tags": [
-            "fashion",
-            "youth",
-            "bold"
-          ]
-        },
-        {
-          "name": "n+1",
-          "url": "https://nplusonemag.com",
-          "description": "Brooklyn literary journal with clean design",
-          "tags": [
-            "literary",
-            "brooklyn",
-            "clean"
-          ]
-        },
-        {
-          "name": "McSweeney's",
-          "url": "https://mcsweeneys.net",
-          "description": "Literary humor by Dave Eggers",
-          "tags": [
-            "literary",
-            "humor",
-            "experimental"
-          ],
-          "iframeBlocked": true
-        },
-        {
-          "name": "The Atlantic",
-          "url": "https://theatlantic.com",
-          "description": "American ideas journalism",
-          "tags": [
-            "journalism",
-            "ideas",
-            "american"
-          ]
-        },
-        {
-          "name": "The New York Times Magazine",
-          "url": "https://nytimes.com/section/magazine",
-          "description": "Visual journalism by Dean Robinson",
-          "tags": [
-            "journalism",
-            "visual",
-            "editorial"
-          ],
-          "iframeBlocked": true
-        },
-        {
-          "name": "How To Spend It",
-          "url": "https://howtospendit.ft.com",
-          "description": "FT's luxury shopping guide",
-          "tags": [
-            "luxury",
-            "shopping",
-            "guide"
-          ],
-          "iframeBlocked": true
         },
         {
           "name": "Radim Peško",
@@ -580,146 +185,6 @@
             "blog",
             "inspiration"
           ]
-        },
-        {
-          "name": "Slanted Magazine",
-          "url": "https://slanted.de",
-          "description": "Bold, experimental, international design magazine",
-          "tags": [
-            "magazine",
-            "design",
-            "experimental"
-          ]
-        },
-        {
-          "name": "Hunger Magazine",
-          "url": "https://hungermag.com",
-          "description": "Bold creative expression by Rankin",
-          "tags": [
-            "magazine",
-            "fashion",
-            "bold"
-          ]
-        },
-        {
-          "name": "Riposte Magazine",
-          "url": "https://ripostemagazine.com",
-          "description": "Smart content for stylish women",
-          "tags": [
-            "magazine",
-            "women",
-            "smart"
-          ]
-        },
-        {
-          "name": "Elephant Magazine",
-          "url": "https://elephant.art",
-          "description": "Contemporary art and visual culture",
-          "tags": [
-            "magazine",
-            "art",
-            "contemporary"
-          ]
-        },
-        {
-          "name": "ArtReview",
-          "url": "https://artreview.com",
-          "description": "International contemporary art magazine",
-          "tags": [
-            "magazine",
-            "art",
-            "international"
-          ]
-        },
-        {
-          "name": "Kaleidoscope",
-          "url": "https://kaleidoscope.media",
-          "description": "Contemporary art magazine",
-          "tags": [
-            "magazine",
-            "art",
-            "milan"
-          ]
-        },
-        {
-          "name": "Mousse Magazine",
-          "url": "https://moussemagazine.it",
-          "description": "Contemporary art magazine",
-          "tags": [
-            "magazine",
-            "art",
-            "italian"
-          ]
-        },
-        {
-          "name": "Hyperallergic",
-          "url": "https://hyperallergic.com",
-          "description": "Sensitive to art and its discontents",
-          "tags": [
-            "blog",
-            "art",
-            "criticism"
-          ]
-        },
-        {
-          "name": "e-flux",
-          "url": "https://e-flux.com",
-          "description": "Art information platform",
-          "tags": [
-            "platform",
-            "art",
-            "information"
-          ]
-        },
-        {
-          "name": "Creative Boom",
-          "url": "https://creativeboom.com",
-          "description": "Creative industry magazine",
-          "tags": [
-            "magazine",
-            "creative",
-            "uk"
-          ]
-        },
-        {
-          "name": "The Dieline",
-          "url": "https://thedieline.com",
-          "description": "Packaging design community",
-          "tags": [
-            "packaging",
-            "design",
-            "community"
-          ]
-        },
-        {
-          "name": "Design Milk",
-          "url": "https://design-milk.com",
-          "description": "Modern design blog",
-          "tags": [
-            "blog",
-            "design",
-            "modern"
-          ]
-        },
-        {
-          "name": "Cool Hunting",
-          "url": "https://coolhunting.com",
-          "description": "Design and culture discovery",
-          "tags": [
-            "blog",
-            "design",
-            "culture"
-          ]
-        },
-        {
-          "name": "Labour and Wait",
-          "url": "https://labourandwait.co.uk",
-          "description": "British household goods",
-          "tags": [
-            "shop",
-            "household",
-            "british"
-          ]
         }
       ]
     },
@@ -760,16 +225,6 @@
             "film"
           ],
           "iframeBlocked": true
-        },
-        {
-          "name": "Film Comment",
-          "url": "https://filmcomment.com",
-          "description": "Film Society of Lincoln Center publication",
-          "tags": [
-            "film",
-            "criticism",
-            "journalism"
-          ]
         },
         {
           "name": "Cohen Film Collection",
@@ -1140,16 +595,6 @@
           ]
         },
         {
-          "name": "Escape Artists",
-          "url": "https://escapeartists.com",
-          "description": "Film production company",
-          "tags": [
-            "film",
-            "production",
-            "company"
-          ]
-        },
-        {
           "name": "FilmNation Entertainment",
           "url": "https://filmnation.net",
           "description": "Film production and sales",
@@ -1167,106 +612,6 @@
             "film",
             "production",
             "ron howard"
-          ]
-        },
-        {
-          "name": "Mandalay Pictures",
-          "url": "https://mandalay.com",
-          "description": "Peter Guber production company",
-          "tags": [
-            "film",
-            "production",
-            "peter guber"
-          ]
-        },
-        {
-          "name": "Platinum Dunes",
-          "url": "https://platinumdunes.com",
-          "description": "Michael Bay production company",
-          "tags": [
-            "film",
-            "production",
-            "michael bay"
-          ]
-        },
-        {
-          "name": "The Film Stage",
-          "url": "https://thefilmstage.com",
-          "description": "Film news and reviews",
-          "tags": [
-            "film",
-            "news",
-            "reviews"
-          ]
-        },
-        {
-          "name": "The Playlist",
-          "url": "https://theplaylist.net",
-          "description": "Film and TV news",
-          "tags": [
-            "film",
-            "tv",
-            "news"
-          ]
-        },
-        {
-          "name": "Bloody Disgusting",
-          "url": "https://bloody-disgusting.com",
-          "description": "Horror film news",
-          "tags": [
-            "film",
-            "horror",
-            "news"
-          ]
-        },
-        {
-          "name": "Dread Central",
-          "url": "https://dreadcentral.com",
-          "description": "Horror film news",
-          "tags": [
-            "film",
-            "horror",
-            "news"
-          ]
-        },
-        {
-          "name": "Reverse Shot",
-          "url": "https://reverseshot.org",
-          "description": "Film criticism quarterly",
-          "tags": [
-            "film",
-            "criticism",
-            "quarterly"
-          ]
-        },
-        {
-          "name": "Senses of Cinema",
-          "url": "https://sensesofcinema.com",
-          "description": "Film criticism journal",
-          "tags": [
-            "film",
-            "criticism",
-            "journal"
-          ]
-        },
-        {
-          "name": "Little White Lies",
-          "url": "https://lwlies.com",
-          "description": "Film magazine with illustrations",
-          "tags": [
-            "film",
-            "magazine",
-            "illustrated"
-          ]
-        },
-        {
-          "name": "Empire",
-          "url": "https://empireonline.com",
-          "description": "British film magazine",
-          "tags": [
-            "film",
-            "magazine",
-            "british"
           ]
         }
       ]
@@ -2089,16 +1434,6 @@
           ]
         },
         {
-          "name": "Union Los Angeles",
-          "url": "https://unionlosangeles.com",
-          "description": "LA streetwear institution",
-          "tags": [
-            "fashion",
-            "streetwear",
-            "los angeles"
-          ]
-        },
-        {
           "name": "Concepts",
           "url": "https://cncpts.com",
           "description": "Boston sneaker and fashion boutique",
@@ -2156,16 +1491,6 @@
             "fashion",
             "menswear",
             "copenhagen"
-          ]
-        },
-        {
-          "name": "Our Legacy",
-          "url": "https://ourlegacy.se",
-          "description": "Swedish contemporary brand",
-          "tags": [
-            "fashion",
-            "contemporary",
-            "swedish"
           ]
         },
         {
@@ -2236,56 +1561,6 @@
             "fashion",
             "denim",
             "sustainable"
-          ]
-        },
-        {
-          "name": "Weekday",
-          "url": "https://weekday.com",
-          "description": "Swedish fashion retailer",
-          "tags": [
-            "fashion",
-            "retailer",
-            "swedish"
-          ]
-        },
-        {
-          "name": "Monki",
-          "url": "https://monki.com",
-          "description": "Swedish fashion brand",
-          "tags": [
-            "fashion",
-            "swedish",
-            "contemporary"
-          ]
-        },
-        {
-          "name": "Gina Tricot",
-          "url": "https://ginatricot.com",
-          "description": "Swedish fast fashion",
-          "tags": [
-            "fashion",
-            "fast fashion",
-            "swedish"
-          ]
-        },
-        {
-          "name": "Lindex",
-          "url": "https://lindex.com",
-          "description": "Swedish fashion retailer",
-          "tags": [
-            "fashion",
-            "retailer",
-            "swedish"
-          ]
-        },
-        {
-          "name": "Åhléns",
-          "url": "https://ahlens.se",
-          "description": "Swedish department store",
-          "tags": [
-            "fashion",
-            "department store",
-            "swedish"
           ]
         },
         {
@@ -2705,6 +1980,226 @@
             "contemporary",
             "paris"
           ]
+        },
+        {
+          "name": "Elephant Magazine",
+          "url": "https://elephant.art",
+          "description": "Contemporary art and visual culture",
+          "tags": [
+            "magazine",
+            "art",
+            "contemporary"
+          ]
+        },
+        {
+          "name": "ArtReview",
+          "url": "https://artreview.com",
+          "description": "International contemporary art magazine",
+          "tags": [
+            "magazine",
+            "art",
+            "international"
+          ]
+        },
+        {
+          "name": "Kaleidoscope",
+          "url": "https://kaleidoscope.media",
+          "description": "Contemporary art magazine",
+          "tags": [
+            "magazine",
+            "art",
+            "milan"
+          ]
+        },
+        {
+          "name": "Mousse Magazine",
+          "url": "https://moussemagazine.it",
+          "description": "Contemporary art magazine",
+          "tags": [
+            "magazine",
+            "art",
+            "italian"
+          ]
+        },
+        {
+          "name": "Hyperallergic",
+          "url": "https://hyperallergic.com",
+          "description": "Sensitive to art and its discontents",
+          "tags": [
+            "blog",
+            "art",
+            "criticism"
+          ]
+        },
+        {
+          "name": "e-flux",
+          "url": "https://e-flux.com",
+          "description": "Art information platform",
+          "tags": [
+            "platform",
+            "art",
+            "information"
+          ]
+        },
+        {
+          "name": "D&AD",
+          "url": "https://dandad.org",
+          "description": "British design and advertising awards",
+          "tags": [
+            "design",
+            "awards",
+            "british",
+            "advertising"
+          ]
+        },
+        {
+          "name": "The One Club",
+          "url": "https://oneclub.org",
+          "description": "Advertising and design awards",
+          "tags": [
+            "design",
+            "awards",
+            "american",
+            "advertising"
+          ]
+        },
+        {
+          "name": "Clio Awards",
+          "url": "https://clioawards.com",
+          "description": "Advertising awards with editorial design",
+          "tags": [
+            "advertising",
+            "awards",
+            "american",
+            "editorial"
+          ]
+        },
+        {
+          "name": "1stDibs",
+          "url": "https://1stdibs.com",
+          "description": "Design and art marketplace",
+          "tags": [
+            "art",
+            "marketplace",
+            "luxury",
+            "global"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Saatchi Art",
+          "url": "https://saatchiart.com",
+          "description": "Online art gallery",
+          "tags": [
+            "art",
+            "gallery",
+            "online",
+            "global"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Artspace",
+          "url": "https://artspace.com",
+          "description": "Contemporary art marketplace",
+          "tags": [
+            "art",
+            "marketplace",
+            "contemporary",
+            "american"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Artnet",
+          "url": "https://artnet.com",
+          "description": "Art market information and data",
+          "tags": [
+            "art",
+            "market",
+            "data",
+            "global"
+          ]
+        },
+        {
+          "name": "ArtFacts",
+          "url": "https://artfacts.net",
+          "description": "Artist rankings and database",
+          "tags": [
+            "art",
+            "database",
+            "rankings",
+            "global"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "MutualArt",
+          "url": "https://mutualart.com",
+          "description": "Art market intelligence",
+          "tags": [
+            "art",
+            "market",
+            "intelligence",
+            "global"
+          ]
+        },
+        {
+          "name": "LiveAuctioneers",
+          "url": "https://liveauctioneers.com",
+          "description": "Auction platform",
+          "tags": [
+            "art",
+            "auction",
+            "platform",
+            "global"
+          ]
+        },
+        {
+          "name": "Bidsquare",
+          "url": "https://bidsquare.com",
+          "description": "Auction platform",
+          "tags": [
+            "art",
+            "auction",
+            "platform",
+            "american"
+          ]
+        },
+        {
+          "name": "Christie's",
+          "url": "https://christies.com",
+          "description": "Auction house",
+          "tags": [
+            "art",
+            "auction",
+            "house",
+            "global"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Sotheby's",
+          "url": "https://sothebys.com",
+          "description": "Auction house",
+          "tags": [
+            "art",
+            "auction",
+            "house",
+            "global"
+          ]
+        },
+        {
+          "name": "Phillips",
+          "url": "https://phillips.com",
+          "description": "Contemporary art auction",
+          "tags": [
+            "art",
+            "auction",
+            "contemporary",
+            "global"
+          ],
+          "iframeBlocked": true
         }
       ]
     },
@@ -2732,28 +2227,6 @@
             "interiors",
             "minimalism",
             "spanish"
-          ]
-        },
-        {
-          "name": "Aperture",
-          "url": "https://aperture.org",
-          "description": "Photography foundation and magazine",
-          "tags": [
-            "magazine",
-            "photography",
-            "foundation",
-            "american"
-          ]
-        },
-        {
-          "name": "Magnum Photos",
-          "url": "https://magnumphotos.com",
-          "description": "Photojournalism cooperative",
-          "tags": [
-            "agency",
-            "photography",
-            "photojournalism",
-            "global"
           ]
         },
         {
@@ -2948,56 +2421,6 @@
           ]
         },
         {
-          "name": "Crack",
-          "url": "https://crackmagazine.net",
-          "description": "Music and culture",
-          "tags": [
-            "magazine",
-            "music",
-            "culture"
-          ]
-        },
-        {
-          "name": "Uncut",
-          "url": "https://uncut.co.uk",
-          "description": "Music and film",
-          "tags": [
-            "magazine",
-            "music",
-            "film"
-          ]
-        },
-        {
-          "name": "DownBeat",
-          "url": "https://downbeat.com",
-          "description": "Jazz magazine",
-          "tags": [
-            "magazine",
-            "jazz",
-            "music"
-          ]
-        },
-        {
-          "name": "JazzTimes",
-          "url": "https://jazztimes.com",
-          "description": "Jazz magazine",
-          "tags": [
-            "magazine",
-            "jazz",
-            "music"
-          ]
-        },
-        {
-          "name": "BBC Music Magazine",
-          "url": "https://classical-music.com",
-          "description": "Classical music",
-          "tags": [
-            "magazine",
-            "classical",
-            "music"
-          ]
-        },
-        {
           "name": "Pointe",
           "url": "https://pointemagazine.com",
           "description": "Ballet magazine",
@@ -3016,6 +2439,687 @@
             "dance",
             "culture"
           ]
+        },
+        {
+          "name": "It's Nice That",
+          "url": "https://itsnicethat.com",
+          "description": "Creative industry editorial platform",
+          "tags": [
+            "creative industry",
+            "editorial",
+            "inspiration"
+          ]
+        },
+        {
+          "name": "Creative Review",
+          "url": "https://creativereview.co.uk",
+          "description": "British design culture magazine",
+          "tags": [
+            "design magazine",
+            "british",
+            "culture"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Sight Unseen",
+          "url": "https://sightunseen.com",
+          "description": "Design and craft editorial by Jill Singer and Monica Khemsurov",
+          "tags": [
+            "design",
+            "craft",
+            "editorial"
+          ]
+        },
+        {
+          "name": "Colossal",
+          "url": "https://thisiscolossal.com",
+          "description": "Art and design blog",
+          "tags": [
+            "art",
+            "design",
+            "blog"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "The Design Files",
+          "url": "https://thedesignfiles.net",
+          "description": "Australian interiors editorial",
+          "tags": [
+            "interiors",
+            "australian",
+            "editorial"
+          ]
+        },
+        {
+          "name": "Remodelista",
+          "url": "https://remodelista.com",
+          "description": "Quiet design, sparse layout by Julie Carlson",
+          "tags": [
+            "interiors",
+            "minimal",
+            "renovation"
+          ]
+        },
+        {
+          "name": "Apartment Therapy",
+          "url": "https://apartmenttherapy.com",
+          "description": "Accessible home culture by Maxwell Ryan",
+          "tags": [
+            "home",
+            "culture",
+            "accessible"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Wallpaper*",
+          "url": "https://wallpaper.com",
+          "description": "Design and lifestyle authority",
+          "tags": [
+            "design",
+            "lifestyle",
+            "luxury"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Monocle",
+          "url": "https://monocle.com",
+          "description": "Global affairs and design by Tyler Brûlé",
+          "tags": [
+            "global affairs",
+            "design",
+            "editorial"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Kinfolk",
+          "url": "https://kinfolk.com",
+          "description": "Slow living aesthetic magazine",
+          "tags": [
+            "slow living",
+            "lifestyle",
+            "editorial"
+          ]
+        },
+        {
+          "name": "Cereal Magazine",
+          "url": "https://readcereal.com",
+          "description": "Minimal lifestyle editorial",
+          "tags": [
+            "lifestyle",
+            "minimal",
+            "editorial"
+          ]
+        },
+        {
+          "name": "Frankie Magazine",
+          "url": "https://frankie.com.au",
+          "description": "Australian indie culture magazine",
+          "tags": [
+            "australian",
+            "indie",
+            "culture"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Oh Comely",
+          "url": "https://ohcomely.co.uk",
+          "description": "British indie editorial magazine",
+          "tags": [
+            "british",
+            "indie",
+            "editorial"
+          ]
+        },
+        {
+          "name": "The Gentlewoman",
+          "url": "https://thegentlewoman.co.uk",
+          "description": "Grown-up fashion with clean editorial design",
+          "tags": [
+            "fashion",
+            "editorial",
+            "women"
+          ]
+        },
+        {
+          "name": "System Magazine",
+          "url": "https://system-magazine.com",
+          "description": "Long-form fashion journalism",
+          "tags": [
+            "fashion",
+            "journalism",
+            "long-form"
+          ]
+        },
+        {
+          "name": "Self Service",
+          "url": "https://selfservicemagazine.com",
+          "description": "Ezra Petronio's fashion art direction",
+          "tags": [
+            "fashion",
+            "art direction",
+            "editorial"
+          ]
+        },
+        {
+          "name": "Purple Magazine",
+          "url": "https://purple.fr",
+          "description": "Olivier Zahm's Parisian cool",
+          "tags": [
+            "fashion",
+            "parisian",
+            "culture"
+          ]
+        },
+        {
+          "name": "Document Journal",
+          "url": "https://documentjournal.com",
+          "description": "Nick Vogelson's luxury journalism",
+          "tags": [
+            "luxury",
+            "journalism",
+            "fashion"
+          ]
+        },
+        {
+          "name": "Interview Magazine",
+          "url": "https://interviewmagazine.com",
+          "description": "Andy Warhol's legacy publication",
+          "tags": [
+            "fashion",
+            "celebrity",
+            "culture"
+          ]
+        },
+        {
+          "name": "W Magazine",
+          "url": "https://wmagazine.com",
+          "description": "Hollywood fashion by Sara Moonves",
+          "tags": [
+            "fashion",
+            "hollywood",
+            "celebrity"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "V Magazine",
+          "url": "https://vmagazine.com",
+          "description": "Stephen Gan's bold fashion editorial",
+          "tags": [
+            "fashion",
+            "bold",
+            "editorial"
+          ]
+        },
+        {
+          "name": "CR Fashion Book",
+          "url": "https://crfashionbook.com",
+          "description": "Carine Roitfeld's fantasy fashion",
+          "tags": [
+            "fashion",
+            "fantasy",
+            "editorial"
+          ]
+        },
+        {
+          "name": "10 Magazine",
+          "url": "https://10magazine.com",
+          "description": "Sophia Neophitou's luxury fashion",
+          "tags": [
+            "fashion",
+            "luxury",
+            "editorial"
+          ]
+        },
+        {
+          "name": "Wonderland",
+          "url": "https://wonderlandmagazine.com",
+          "description": "Youth culture by Toni-Blaze Ibekwe",
+          "tags": [
+            "youth culture",
+            "fashion",
+            "editorial"
+          ]
+        },
+        {
+          "name": "Rollacoaster",
+          "url": "https://rollacoaster.tv",
+          "description": "UK youth culture by Louise Gannon",
+          "tags": [
+            "youth culture",
+            "uk",
+            "editorial"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Flaunt Magazine",
+          "url": "https://flaunt.com",
+          "description": "LA fashion culture by Luis Barajas",
+          "tags": [
+            "fashion",
+            "la",
+            "culture"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Nylon",
+          "url": "https://nylon.com",
+          "description": "Pop culture fashion by Michelle Lee",
+          "tags": [
+            "fashion",
+            "pop culture",
+            "youth"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Paper Magazine",
+          "url": "https://papermag.com",
+          "description": "Downtown culture by Kim Hastreiter",
+          "tags": [
+            "culture",
+            "downtown",
+            "fashion"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Office Magazine",
+          "url": "https://officemagazine.net",
+          "description": "NYC culture by Simon Rasmussen",
+          "tags": [
+            "culture",
+            "nyc",
+            "editorial"
+          ]
+        },
+        {
+          "name": "King Kong Magazine",
+          "url": "https://kingkongmagazine.com",
+          "description": "Art fashion by Paulina Pikulinski",
+          "tags": [
+            "fashion",
+            "art",
+            "editorial"
+          ]
+        },
+        {
+          "name": "Buffalo Zine",
+          "url": "https://buffalozine.com",
+          "description": "Spanish fashion by Adrián González-Cohen",
+          "tags": [
+            "fashion",
+            "spanish",
+            "editorial"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Fucking Young!",
+          "url": "https://fuckingyoung.es",
+          "description": "Youth fashion culture with bold design",
+          "tags": [
+            "fashion",
+            "youth",
+            "bold"
+          ]
+        },
+        {
+          "name": "n+1",
+          "url": "https://nplusonemag.com",
+          "description": "Brooklyn literary journal with clean design",
+          "tags": [
+            "literary",
+            "brooklyn",
+            "clean"
+          ]
+        },
+        {
+          "name": "McSweeney's",
+          "url": "https://mcsweeneys.net",
+          "description": "Literary humor by Dave Eggers",
+          "tags": [
+            "literary",
+            "humor",
+            "experimental"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "The Atlantic",
+          "url": "https://theatlantic.com",
+          "description": "American ideas journalism",
+          "tags": [
+            "journalism",
+            "ideas",
+            "american"
+          ]
+        },
+        {
+          "name": "The New York Times Magazine",
+          "url": "https://nytimes.com/section/magazine",
+          "description": "Visual journalism by Dean Robinson",
+          "tags": [
+            "journalism",
+            "visual",
+            "editorial"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "How To Spend It",
+          "url": "https://howtospendit.ft.com",
+          "description": "FT's luxury shopping guide",
+          "tags": [
+            "luxury",
+            "shopping",
+            "guide"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Slanted Magazine",
+          "url": "https://slanted.de",
+          "description": "Bold, experimental, international design magazine",
+          "tags": [
+            "magazine",
+            "design",
+            "experimental"
+          ]
+        },
+        {
+          "name": "Hunger Magazine",
+          "url": "https://hungermag.com",
+          "description": "Bold creative expression by Rankin",
+          "tags": [
+            "magazine",
+            "fashion",
+            "bold"
+          ]
+        },
+        {
+          "name": "Riposte Magazine",
+          "url": "https://ripostemagazine.com",
+          "description": "Smart content for stylish women",
+          "tags": [
+            "magazine",
+            "women",
+            "smart"
+          ]
+        },
+        {
+          "name": "Creative Boom",
+          "url": "https://creativeboom.com",
+          "description": "Creative industry magazine",
+          "tags": [
+            "magazine",
+            "creative",
+            "uk"
+          ]
+        },
+        {
+          "name": "The Dieline",
+          "url": "https://thedieline.com",
+          "description": "Packaging design community",
+          "tags": [
+            "packaging",
+            "design",
+            "community"
+          ]
+        },
+        {
+          "name": "Design Milk",
+          "url": "https://design-milk.com",
+          "description": "Modern design blog",
+          "tags": [
+            "blog",
+            "design",
+            "modern"
+          ]
+        },
+        {
+          "name": "Cool Hunting",
+          "url": "https://coolhunting.com",
+          "description": "Design and culture discovery",
+          "tags": [
+            "blog",
+            "design",
+            "culture"
+          ]
+        },
+        {
+          "name": "Film Comment",
+          "url": "https://filmcomment.com",
+          "description": "Film Society of Lincoln Center publication",
+          "tags": [
+            "film",
+            "criticism",
+            "journalism"
+          ]
+        },
+        {
+          "name": "Little White Lies",
+          "url": "https://lwlies.com",
+          "description": "Film magazine with illustrations",
+          "tags": [
+            "film",
+            "magazine",
+            "illustrated"
+          ]
+        },
+        {
+          "name": "Empire",
+          "url": "https://empireonline.com",
+          "description": "British film magazine",
+          "tags": [
+            "film",
+            "magazine",
+            "british"
+          ]
+        },
+        {
+          "name": "The Film Stage",
+          "url": "https://thefilmstage.com",
+          "description": "Film news and reviews",
+          "tags": [
+            "film",
+            "news",
+            "reviews"
+          ]
+        },
+        {
+          "name": "The Playlist",
+          "url": "https://theplaylist.net",
+          "description": "Film and TV news",
+          "tags": [
+            "film",
+            "tv",
+            "news"
+          ]
+        },
+        {
+          "name": "Bloody Disgusting",
+          "url": "https://bloody-disgusting.com",
+          "description": "Horror film news",
+          "tags": [
+            "film",
+            "horror",
+            "news"
+          ]
+        },
+        {
+          "name": "Dread Central",
+          "url": "https://dreadcentral.com",
+          "description": "Horror film news",
+          "tags": [
+            "film",
+            "horror",
+            "news"
+          ]
+        },
+        {
+          "name": "Reverse Shot",
+          "url": "https://reverseshot.org",
+          "description": "Film criticism quarterly",
+          "tags": [
+            "film",
+            "criticism",
+            "quarterly"
+          ]
+        },
+        {
+          "name": "Senses of Cinema",
+          "url": "https://sensesofcinema.com",
+          "description": "Film criticism journal",
+          "tags": [
+            "film",
+            "criticism",
+            "journal"
+          ]
+        },
+        {
+          "name": "Eye Magazine",
+          "url": "https://eyemagazine.com",
+          "description": "Graphic design journalism",
+          "tags": [
+            "design",
+            "graphic",
+            "journalism",
+            "british"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Print Magazine",
+          "url": "https://printmag.com",
+          "description": "Design history and culture",
+          "tags": [
+            "design",
+            "history",
+            "american",
+            "magazine"
+          ]
+        },
+        {
+          "name": "The Brand Identity",
+          "url": "https://the-brandidentity.com",
+          "description": "Brand design editorial platform",
+          "tags": [
+            "design",
+            "branding",
+            "british",
+            "editorial"
+          ]
+        },
+        {
+          "name": "BP&O",
+          "url": "https://bpando.org",
+          "description": "Richard Baird's branding blog",
+          "tags": [
+            "design",
+            "branding",
+            "blog",
+            "british"
+          ]
+        },
+        {
+          "name": "Under Consideration",
+          "url": "https://underconsideration.com",
+          "description": "Armin Vit's design criticism",
+          "tags": [
+            "design",
+            "criticism",
+            "american",
+            "blog"
+          ]
+        },
+        {
+          "name": "Brand New",
+          "url": "https://underconsideration.com/brandnew",
+          "description": "Identity design criticism",
+          "tags": [
+            "design",
+            "branding",
+            "identity",
+            "criticism"
+          ]
+        },
+        {
+          "name": "Communication Arts",
+          "url": "https://commarts.com",
+          "description": "Design competition and editorial",
+          "tags": [
+            "design",
+            "competition",
+            "american",
+            "magazine"
+          ]
+        },
+        {
+          "name": "Graphis",
+          "url": "https://graphis.com",
+          "description": "Design annual and portfolio",
+          "tags": [
+            "design",
+            "annual",
+            "portfolio",
+            "american"
+          ]
+        },
+        {
+          "name": "Lürzer's Archive",
+          "url": "https://luerzersarchive.com",
+          "description": "Advertising collection and database",
+          "tags": [
+            "advertising",
+            "collection",
+            "database",
+            "global"
+          ]
+        },
+        {
+          "name": "Hypebeast",
+          "url": "https://hypebeast.com",
+          "description": "Streetwear culture empire by Kevin Ma",
+          "tags": [
+            "culture",
+            "streetwear",
+            "hong kong",
+            "empire"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Highsnobiety",
+          "url": "https://highsnobiety.com",
+          "description": "Luxury streetwear culture by David Fischer",
+          "tags": [
+            "culture",
+            "streetwear",
+            "german",
+            "luxury"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Complex",
+          "url": "https://complex.com",
+          "description": "Street culture journalism by Marc Ecko",
+          "tags": [
+            "culture",
+            "streetwear",
+            "american",
+            "journalism"
+          ],
+          "iframeBlocked": true
         }
       ]
     },
@@ -3392,139 +3496,6 @@
           ]
         },
         {
-          "name": "Eye Magazine",
-          "url": "https://eyemagazine.com",
-          "description": "Graphic design journalism",
-          "tags": [
-            "design",
-            "graphic",
-            "journalism",
-            "british"
-          ],
-          "iframeBlocked": true
-        },
-        {
-          "name": "Print Magazine",
-          "url": "https://printmag.com",
-          "description": "Design history and culture",
-          "tags": [
-            "design",
-            "history",
-            "american",
-            "magazine"
-          ]
-        },
-        {
-          "name": "The Brand Identity",
-          "url": "https://the-brandidentity.com",
-          "description": "Brand design editorial platform",
-          "tags": [
-            "design",
-            "branding",
-            "british",
-            "editorial"
-          ]
-        },
-        {
-          "name": "BP&O",
-          "url": "https://bpando.org",
-          "description": "Richard Baird's branding blog",
-          "tags": [
-            "design",
-            "branding",
-            "blog",
-            "british"
-          ]
-        },
-        {
-          "name": "Under Consideration",
-          "url": "https://underconsideration.com",
-          "description": "Armin Vit's design criticism",
-          "tags": [
-            "design",
-            "criticism",
-            "american",
-            "blog"
-          ]
-        },
-        {
-          "name": "Brand New",
-          "url": "https://underconsideration.com/brandnew",
-          "description": "Identity design criticism",
-          "tags": [
-            "design",
-            "branding",
-            "identity",
-            "criticism"
-          ]
-        },
-        {
-          "name": "Communication Arts",
-          "url": "https://commarts.com",
-          "description": "Design competition and editorial",
-          "tags": [
-            "design",
-            "competition",
-            "american",
-            "magazine"
-          ]
-        },
-        {
-          "name": "Graphis",
-          "url": "https://graphis.com",
-          "description": "Design annual and portfolio",
-          "tags": [
-            "design",
-            "annual",
-            "portfolio",
-            "american"
-          ]
-        },
-        {
-          "name": "D&AD",
-          "url": "https://dandad.org",
-          "description": "British design and advertising awards",
-          "tags": [
-            "design",
-            "awards",
-            "british",
-            "advertising"
-          ]
-        },
-        {
-          "name": "The One Club",
-          "url": "https://oneclub.org",
-          "description": "Advertising and design awards",
-          "tags": [
-            "design",
-            "awards",
-            "american",
-            "advertising"
-          ]
-        },
-        {
-          "name": "Clio Awards",
-          "url": "https://clioawards.com",
-          "description": "Advertising awards with editorial design",
-          "tags": [
-            "advertising",
-            "awards",
-            "american",
-            "editorial"
-          ]
-        },
-        {
-          "name": "Lürzer's Archive",
-          "url": "https://luerzersarchive.com",
-          "description": "Advertising collection and database",
-          "tags": [
-            "advertising",
-            "collection",
-            "database",
-            "global"
-          ]
-        },
-        {
           "name": "Zaha Hadid Architects",
           "url": "https://zaha-hadid.com",
           "description": "Parametric architecture",
@@ -3653,6 +3624,16 @@
             "contextual",
             "copenhagen"
           ]
+        },
+        {
+          "name": "ArchDaily",
+          "url": "https://archdaily.com",
+          "description": "Architecture news and projects database",
+          "tags": [
+            "architecture",
+            "database",
+            "projects"
+          ]
         }
       ]
     },
@@ -3720,133 +3701,6 @@
           "iframeBlocked": true
         },
         {
-          "name": "1stDibs",
-          "url": "https://1stdibs.com",
-          "description": "Design and art marketplace",
-          "tags": [
-            "art",
-            "marketplace",
-            "luxury",
-            "global"
-          ],
-          "iframeBlocked": true
-        },
-        {
-          "name": "Saatchi Art",
-          "url": "https://saatchiart.com",
-          "description": "Online art gallery",
-          "tags": [
-            "art",
-            "gallery",
-            "online",
-            "global"
-          ],
-          "iframeBlocked": true
-        },
-        {
-          "name": "Artspace",
-          "url": "https://artspace.com",
-          "description": "Contemporary art marketplace",
-          "tags": [
-            "art",
-            "marketplace",
-            "contemporary",
-            "american"
-          ],
-          "iframeBlocked": true
-        },
-        {
-          "name": "Artnet",
-          "url": "https://artnet.com",
-          "description": "Art market information and data",
-          "tags": [
-            "art",
-            "market",
-            "data",
-            "global"
-          ]
-        },
-        {
-          "name": "ArtFacts",
-          "url": "https://artfacts.net",
-          "description": "Artist rankings and database",
-          "tags": [
-            "art",
-            "database",
-            "rankings",
-            "global"
-          ],
-          "iframeBlocked": true
-        },
-        {
-          "name": "MutualArt",
-          "url": "https://mutualart.com",
-          "description": "Art market intelligence",
-          "tags": [
-            "art",
-            "market",
-            "intelligence",
-            "global"
-          ]
-        },
-        {
-          "name": "LiveAuctioneers",
-          "url": "https://liveauctioneers.com",
-          "description": "Auction platform",
-          "tags": [
-            "art",
-            "auction",
-            "platform",
-            "global"
-          ]
-        },
-        {
-          "name": "Bidsquare",
-          "url": "https://bidsquare.com",
-          "description": "Auction platform",
-          "tags": [
-            "art",
-            "auction",
-            "platform",
-            "american"
-          ]
-        },
-        {
-          "name": "Christie's",
-          "url": "https://christies.com",
-          "description": "Auction house",
-          "tags": [
-            "art",
-            "auction",
-            "house",
-            "global"
-          ],
-          "iframeBlocked": true
-        },
-        {
-          "name": "Sotheby's",
-          "url": "https://sothebys.com",
-          "description": "Auction house",
-          "tags": [
-            "art",
-            "auction",
-            "house",
-            "global"
-          ]
-        },
-        {
-          "name": "Phillips",
-          "url": "https://phillips.com",
-          "description": "Contemporary art auction",
-          "tags": [
-            "art",
-            "auction",
-            "contemporary",
-            "global"
-          ],
-          "iframeBlocked": true
-        },
-        {
           "name": "VII Photo",
           "url": "https://viiphoto.com",
           "description": "Documentary photography",
@@ -3904,6 +3758,28 @@
             "photography",
             "contest",
             "international"
+          ]
+        },
+        {
+          "name": "Aperture",
+          "url": "https://aperture.org",
+          "description": "Photography foundation and magazine",
+          "tags": [
+            "magazine",
+            "photography",
+            "foundation",
+            "american"
+          ]
+        },
+        {
+          "name": "Magnum Photos",
+          "url": "https://magnumphotos.com",
+          "description": "Photojournalism cooperative",
+          "tags": [
+            "agency",
+            "photography",
+            "photojournalism",
+            "global"
           ]
         }
       ]
@@ -3977,42 +3853,6 @@
             "style",
             "american",
             "culture"
-          ],
-          "iframeBlocked": true
-        },
-        {
-          "name": "Hypebeast",
-          "url": "https://hypebeast.com",
-          "description": "Streetwear culture empire by Kevin Ma",
-          "tags": [
-            "culture",
-            "streetwear",
-            "hong kong",
-            "empire"
-          ],
-          "iframeBlocked": true
-        },
-        {
-          "name": "Highsnobiety",
-          "url": "https://highsnobiety.com",
-          "description": "Luxury streetwear culture by David Fischer",
-          "tags": [
-            "culture",
-            "streetwear",
-            "german",
-            "luxury"
-          ],
-          "iframeBlocked": true
-        },
-        {
-          "name": "Complex",
-          "url": "https://complex.com",
-          "description": "Street culture journalism by Marc Ecko",
-          "tags": [
-            "culture",
-            "streetwear",
-            "american",
-            "journalism"
           ],
           "iframeBlocked": true
         },
@@ -4155,98 +3995,6 @@
           "iframeBlocked": true
         },
         {
-          "name": "Teenage Engineering",
-          "url": "https://teenage.engineering",
-          "description": "Swedish synth design with editorial presentation",
-          "tags": [
-            "product",
-            "audio",
-            "swedish",
-            "design"
-          ]
-        },
-        {
-          "name": "Novation",
-          "url": "https://novationmusic.com",
-          "description": "British controllers with clean design",
-          "tags": [
-            "product",
-            "audio",
-            "british",
-            "controllers"
-          ],
-          "iframeBlocked": true
-        },
-        {
-          "name": "Ableton",
-          "url": "https://ableton.com",
-          "description": "Berlin production software with editorial design",
-          "tags": [
-            "software",
-            "audio",
-            "german",
-            "production"
-          ],
-          "iframeBlocked": true
-        },
-        {
-          "name": "Native Instruments",
-          "url": "https://native-instruments.com",
-          "description": "Berlin software with bold design",
-          "tags": [
-            "software",
-            "audio",
-            "german",
-            "instruments"
-          ]
-        },
-        {
-          "name": "Arturia",
-          "url": "https://arturia.com",
-          "description": "French synths with colorful design",
-          "tags": [
-            "product",
-            "audio",
-            "french",
-            "synths"
-          ]
-        },
-        {
-          "name": "Moog",
-          "url": "https://moogmusic.com",
-          "description": "American synthesis with heritage design",
-          "tags": [
-            "product",
-            "audio",
-            "american",
-            "heritage"
-          ]
-        },
-        {
-          "name": "Universal Audio",
-          "url": "https://uaudio.com",
-          "description": "Analog emulation with professional design",
-          "tags": [
-            "product",
-            "audio",
-            "american",
-            "professional"
-          ],
-          "iframeBlocked": true
-        },
-        {
-          "name": "FabFilter",
-          "url": "https://fabfilter.com",
-          "description": "Dutch plugins with distinctive design",
-          "tags": [
-            "software",
-            "audio",
-            "dutch",
-            "plugins"
-          ],
-          "iframeBlocked": true
-        },
-        {
           "name": "XL Recordings",
           "url": "https://xlrecordings.com",
           "description": "Independent record label",
@@ -4304,6 +4052,56 @@
             "music",
             "label",
             "los angeles"
+          ]
+        },
+        {
+          "name": "Crack",
+          "url": "https://crackmagazine.net",
+          "description": "Music and culture",
+          "tags": [
+            "magazine",
+            "music",
+            "culture"
+          ]
+        },
+        {
+          "name": "Uncut",
+          "url": "https://uncut.co.uk",
+          "description": "Music and film",
+          "tags": [
+            "magazine",
+            "music",
+            "film"
+          ]
+        },
+        {
+          "name": "DownBeat",
+          "url": "https://downbeat.com",
+          "description": "Jazz magazine",
+          "tags": [
+            "magazine",
+            "jazz",
+            "music"
+          ]
+        },
+        {
+          "name": "JazzTimes",
+          "url": "https://jazztimes.com",
+          "description": "Jazz magazine",
+          "tags": [
+            "magazine",
+            "jazz",
+            "music"
+          ]
+        },
+        {
+          "name": "BBC Music Magazine",
+          "url": "https://classical-music.com",
+          "description": "Classical music",
+          "tags": [
+            "magazine",
+            "classical",
+            "music"
           ]
         }
       ]
@@ -4771,36 +4569,6 @@
           ]
         },
         {
-          "name": "Prismic",
-          "url": "https://prismic.io",
-          "description": "Headless CMS",
-          "tags": [
-            "tech",
-            "cms",
-            "headless"
-          ]
-        },
-        {
-          "name": "Netlify",
-          "url": "https://netlify.com",
-          "description": "Web hosting platform",
-          "tags": [
-            "tech",
-            "hosting",
-            "jamstack"
-          ]
-        },
-        {
-          "name": "GitLab",
-          "url": "https://gitlab.com",
-          "description": "DevOps platform",
-          "tags": [
-            "tech",
-            "developer",
-            "devops"
-          ]
-        },
-        {
           "name": "Loom",
           "url": "https://loom.com",
           "description": "Video messaging",
@@ -4819,6 +4587,98 @@
             "productivity",
             "documents"
           ]
+        },
+        {
+          "name": "Teenage Engineering",
+          "url": "https://teenage.engineering",
+          "description": "Swedish synth design with editorial presentation",
+          "tags": [
+            "product",
+            "audio",
+            "swedish",
+            "design"
+          ]
+        },
+        {
+          "name": "Novation",
+          "url": "https://novationmusic.com",
+          "description": "British controllers with clean design",
+          "tags": [
+            "product",
+            "audio",
+            "british",
+            "controllers"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Ableton",
+          "url": "https://ableton.com",
+          "description": "Berlin production software with editorial design",
+          "tags": [
+            "software",
+            "audio",
+            "german",
+            "production"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "Native Instruments",
+          "url": "https://native-instruments.com",
+          "description": "Berlin software with bold design",
+          "tags": [
+            "software",
+            "audio",
+            "german",
+            "instruments"
+          ]
+        },
+        {
+          "name": "Arturia",
+          "url": "https://arturia.com",
+          "description": "French synths with colorful design",
+          "tags": [
+            "product",
+            "audio",
+            "french",
+            "synths"
+          ]
+        },
+        {
+          "name": "Moog",
+          "url": "https://moogmusic.com",
+          "description": "American synthesis with heritage design",
+          "tags": [
+            "product",
+            "audio",
+            "american",
+            "heritage"
+          ]
+        },
+        {
+          "name": "Universal Audio",
+          "url": "https://uaudio.com",
+          "description": "Analog emulation with professional design",
+          "tags": [
+            "product",
+            "audio",
+            "american",
+            "professional"
+          ],
+          "iframeBlocked": true
+        },
+        {
+          "name": "FabFilter",
+          "url": "https://fabfilter.com",
+          "description": "Dutch plugins with distinctive design",
+          "tags": [
+            "software",
+            "audio",
+            "dutch",
+            "plugins"
+          ],
+          "iframeBlocked": true
         }
       ]
     }
