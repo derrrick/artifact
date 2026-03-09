@@ -168,8 +168,20 @@ export default function Home() {
             <div className="flex justify-center w-full mt-6 md:mt-12">
               <ExplorePill onClick={handleSeek} />
             </div>
+
           </motion.div>
         </div>
+
+        {/* Themes anchor — pinned near bottom */}
+        <button
+          onClick={() => document.getElementById("themes")?.scrollIntoView({ behavior: "smooth" })}
+          className="absolute bottom-16 left-1/2 -translate-x-1/2 z-10 hidden md:flex flex-col items-center gap-2 cursor-pointer group"
+        >
+          <span className="font-[family-name:var(--font-mono)] text-[10px] tracking-[0.4em] uppercase transition-opacity group-hover:opacity-100" style={{ color: CANARY, opacity: 0.7 }}>Themes</span>
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" className="transition-transform group-hover:translate-y-1 animate-bounce">
+            <path d="M7 2V12M7 12L2 7M7 12L12 7" stroke={CANARY} strokeWidth="1.5" />
+          </svg>
+        </button>
 
         {/* Bottom edge fade */}
         <div className="absolute bottom-0 left-0 right-0 h-32 pointer-events-none" style={{
